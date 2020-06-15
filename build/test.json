@@ -1,0 +1,159 @@
+[
+  {
+    "businessEventTemplateId": "BD001",
+    "ruleMapping": [{ "ruleId": "", "ruleConstruct": "" }],
+    "subscription": [
+      {
+        "subscriptionDetails": {
+          "subscriberGroup": "IOM",
+          "subscriptionInfo": {
+            "subscriptionStartDt": "2020-02-14",
+            "subscriptionEndDt": "9999-12-31",
+            "subscriptionDeactivate": "N"
+          }
+        }
+      },
+      {
+        "subscriptionDetails": {
+          "subscriberGroup": "Email",
+          "subscriptionInfo": {
+            "subscriptionStartDt": "2020-02-14",
+            "subscriptionEndDt": "9999-12-31",
+            "subscriptionDeactivate": "N"
+          }
+        }
+      }
+    ],
+    "passThrough": "N",
+    "businessEventId": "UA_Arrival_Tarmac_Delay",
+    "exitCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "Envelope.Body.FlightLeg.OperationsFlightLeg.airlineIATACd",
+          "iaoEventCreationSystem": "Envelope.Header.eventHeader.eventCreationSystem",
+          "iaoEventCreationTime": "Envelope.Header.eventHeader.eventCreationTime",
+          "iaoFltINIndicator": "Envelope.Body.FlightLeg.OperationsFlightLeg.fltInInd",
+          "iaoOnTheFieldDtTmUTC": "Envelope.Body.FlightLeg.OperationsFlightLeg.gmtOnTheFldDtTm",
+          "iaoOpFltNumber": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsFltNbr",
+          "iaoOpFltLegArrStationIATACode": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegArrArptIATACd",
+          "iaoOpFltLegArrOccurNumber": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegArrOccurNbr",
+          "iaoOpFltLegDepStationIATACode": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegDepArptIATACd",
+          "iaoOpFltLegDepOccurNumber": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegDepOccurNbr",
+          "iaoOpFltLegSchDepDtTmUTC": "Envelope.Body.FlightLeg.ScheduledFlightLeg.schedLegGMTDepDtTm",
+          "iaoOpFltLegSchArrDtTmUTC": "Envelope.Body.FlightLeg.ScheduledFlightLeg.schedLegGMTArrDtTm"
+        },
+        "domain": "Flight",
+        "namedSignal": "IN"
+      }
+    ],
+    "entryCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "Envelope.Body.FlightLeg.OperationsFlightLeg.airlineIATACd",
+          "iaoEventCreationSystem": "Envelope.Header.eventHeader.eventCreationSystem",
+          "iaoEventCreationTime": "Envelope.Header.eventHeader.eventCreationTime",
+          "iaoOnTheFieldDtTmUTC": "Envelope.Body.FlightLeg.OperationsFlightLeg.gmtOnTheFldDtTm",
+          "iaoOpFltNumber": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsFltNbr",
+          "iaoOpFltLegArrStationIATACode": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegArrArptIATACd",
+          "iaoOpFltLegArrOccurNumber": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegArrOccurNbr",
+          "iaoOpFltLegDepStationIATACode": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegDepArptIATACd",
+          "iaoOpFltLegDepOccurNumber": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegDepOccurNbr",
+          "iaoOpFltLegSchDepDtTmUTC": "Envelope.Body.FlightLeg.ScheduledFlightLeg.schedLegGMTDepDtTm",
+          "iaoOpFltLegSchArrDtTmUTC": "Envelope.Body.FlightLeg.ScheduledFlightLeg.schedLegGMTArrDtTm"
+        },
+        "domain": "Flight",
+        "namedSignal": "ON",
+        "iaoSignalName": "ON"
+      }
+    ],
+    "reinitiateCriteria": [{ "domain": "", "namedSignal": "" }],
+    "businessTargetedDomains": ["Flight"],
+    "eventDescription": "Generate alert when Taxi-in time deviation is exceeding thresholds.",
+    "influencers": ["ON", "IN"],
+    "businessEvent": "Arrival Tarmac Delay",
+    "mappingStatus": "Active",
+    "eventType": "Stateful",
+    "type": "Temporal",
+    "schedulingCondition": {
+      "scheduleKey": "iaoFltONIndicator",
+      "snoozesTimeValueMins": 15,
+      "snoozesTimeIncrementValueMins": 1,
+      "operator": "ADD"
+    }
+  },
+  {
+    "businessEventTemplateId": "BD002",
+    "ruleMapping": [{ "ruleId": "", "ruleConstruct": "" }],
+    "subscription": [
+      {
+        "subscriptionDetails": {
+          "subscriberGroup": "IOM",
+          "subscriptionInfo": {
+            "subscriptionStartDt": "2020-02-14",
+            "subscriptionEndDt": "9999-12-31",
+            "subscriptionDeactivate": "N"
+          }
+        }
+      },
+      {
+        "subscriptionDetails": {
+          "subscriberGroup": "Email",
+          "subscriptionInfo": {
+            "subscriptionStartDt": "2020-02-14",
+            "subscriptionEndDt": "9999-12-31",
+            "subscriptionDeactivate": "N"
+          }
+        }
+      }
+    ],
+    "passThrough": "N",
+    "businessEventId": "UA_Arrival_Tarmac_Delay",
+    "exitCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "Envelope.Body.FlightLeg.OperationsFlightLeg.airlineIATACd",
+          "iaoEventCreationSystem": "Envelope.Header.eventHeader.eventCreationSystem",
+          "iaoEventCreationTime": "Envelope.Header.eventHeader.eventCreationTime",
+          "iaoFltINIndicator": "Envelope.Body.FlightLeg.OperationsFlightLeg.fltInInd",
+          "iaoOnTheFieldDtTmUTC": "Envelope.Body.FlightLeg.OperationsFlightLeg.gmtOnTheFldDtTm",
+          "iaoOpFltNumber": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsFltNbr",
+          "iaoOpFltLegArrStationIATACode": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegArrArptIATACd",
+          "iaoOpFltLegArrOccurNumber": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegArrOccurNbr",
+          "iaoOpFltLegDepStationIATACode": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegDepArptIATACd",
+          "iaoOpFltLegDepOccurNumber": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegDepOccurNbr",
+          "iaoOpFltLegSchDepDtTmUTC": "Envelope.Body.FlightLeg.ScheduledFlightLeg.schedLegGMTDepDtTm",
+          "iaoOpFltLegSchArrDtTmUTC": "Envelope.Body.FlightLeg.ScheduledFlightLeg.schedLegGMTArrDtTm"
+        },
+        "domain": "Flight",
+        "namedSignal": "IN"
+      }
+    ],
+    "entryCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "Envelope.Body.FlightLeg.OperationsFlightLeg.airlineIATACd",
+          "iaoEventCreationSystem": "Envelope.Header.eventHeader.eventCreationSystem",
+          "iaoEventCreationTime": "Envelope.Header.eventHeader.eventCreationTime",
+          "iaoOnTheFieldDtTmUTC": "Envelope.Body.FlightLeg.OperationsFlightLeg.gmtOnTheFldDtTm",
+          "iaoOpFltNumber": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsFltNbr",
+          "iaoOpFltLegArrStationIATACode": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegArrArptIATACd",
+          "iaoOpFltLegArrOccurNumber": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegArrOccurNbr",
+          "iaoOpFltLegDepStationIATACode": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegDepArptIATACd",
+          "iaoOpFltLegDepOccurNumber": "Envelope.Body.FlightLeg.OperationsFlightLeg.opsLegDepOccurNbr",
+          "iaoOpFltLegSchDepDtTmUTC": "Envelope.Body.FlightLeg.ScheduledFlightLeg.schedLegGMTDepDtTm",
+          "iaoOpFltLegSchArrDtTmUTC": "Envelope.Body.FlightLeg.ScheduledFlightLeg.schedLegGMTArrDtTm"
+        },
+        "domain": "Flight",
+        "namedSignal": "ON"
+      }
+    ],
+    "reinitiateCriteria": [{ "domain": "", "namedSignal": "" }],
+    "businessTargetedDomains": ["Flight"],
+    "eventDescription": "Generate alert when Taxi-in time deviation is exceeding thresholds.",
+    "influencers": ["ON", "IN"],
+    "businessEvent": "Arrival Tarmac Delay",
+    "mappingStatus": "Active",
+    "eventType": "Stateful",
+    "type": "Temporal"
+  }
+]

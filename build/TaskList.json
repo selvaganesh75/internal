@@ -1,0 +1,423 @@
+[
+ {
+	"id":"TSK000001",
+	"taskid":"TSK000001",
+	"taskgroup":"BTW",
+	"tasknm":"GSA & Equipment At A/C",
+	"taskdescription":"Cones placed",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000001",
+	"taskid":"TSK000001",
+	"taskgroup":"BTW",
+	"tasknm":"GSA & Equipment At A/C",
+	"taskdescription":"Cones placed",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+
+},
+{
+	"id":"TSK000002",
+	"taskid":"TSK000002",
+	"taskgroup":"BTW",
+	"tasknm":"Engg Staff At A/C",
+	"taskdescription":"Engineering reports at A/C",
+	"iscaamsenable":"N",
+	"departmentcode":"ENGG",
+	"deptid":"DEP003"
+},
+{
+	"id":"TSK000003",
+	"taskid":"TSK000003",
+	"taskgroup":"BTW",
+	"tasknm":"Initial WAC",
+	"taskdescription":"Engineering performs Initial walk around checks",
+	"iscaamsenable":"N",
+	"departmentcode":"ENGG",
+	"deptid":"DEP003"
+},
+{
+	"id":"TSK000004",
+	"taskid":"TSK000004",
+	"taskgroup":"BTW",
+	"tasknm":"Aerobridge/Ladder Aligned",
+	"taskdescription":"Aerobridge/Ladder Aligned",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000005",
+	"taskid":"TSK000005",
+	"taskgroup":"ATW",
+	"tasknm":"A/C Door Open",
+	"taskdescription":"A/C Door Open",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000006",
+	"taskid":"TSK000006",
+	"taskgroup":"ATW",
+	"tasknm":"A/C Door Open",
+	"taskdescription":"Base Flight A/C Door Open",
+	"iscaamsenable":"N",
+	"departmentcode":"ENGG",
+	"deptid":"DEP003"
+},
+{
+	"id":"TSK000007",
+	"taskid":"TSK000007",
+	"taskgroup":"ATW",
+	"tasknm":"Guest Deplane",
+	"taskdescription":"Guest Deplane",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000008",
+	"taskid":"TSK000008",
+	"taskgroup":"BTW",
+	"tasknm":"Dead Load At A/C",
+	"taskdescription":"Dead load Reporting At Aircraft",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000009",
+	"taskid":"TSK000009",
+	"taskgroup":"ATW",
+	"tasknm":"Catering",
+	"taskdescription":"Catering",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000010",
+	"taskid":"TSK000010",
+	"taskgroup":"BTW",
+	"tasknm":"Fueling",
+	"taskdescription":"Fueling",
+	"iscaamsenable":"N",
+	"departmentcode":"ENGG",
+	"deptid":"DEP003"
+},
+{
+	"id":"TSK000011",
+	"taskid":"TSK000011",
+	"taskgroup":"BTW",
+	"tasknm":"Toilet & Water Service",
+	"taskdescription":"Toilet and Water Service",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000012",
+	"taskid":"TSK000012",
+	"taskgroup":"ATW",
+	"tasknm":"LIFB Initial To CPT",
+	"taskdescription":"LIFB Initial to Captain",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000013",
+	"taskid":"TSK000013",
+	"taskgroup":"ATW",
+	"tasknm":"Boarding Gate Ops",
+	"taskdescription":"Boarding Gate Operations",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000014",
+	"taskid":"TSK000014",
+	"taskgroup":"BTW",
+	"tasknm":"Dead Load Loading",
+	"taskdescription":"Dead Load Loading Activity",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000015",
+	"taskid":"TSK000015",
+	"taskgroup":"ATW",
+	"tasknm":"Cabin Cleaning",
+	"taskdescription":"Cabin Cleaning",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000016",
+	"taskid":"TSK000016",
+	"taskgroup":"ATW",
+	"tasknm":"Guest Boarding At A/C",
+	"taskdescription":"Guest boarding at aircraft door",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000017",
+	"taskid":"TSK000017",
+	"taskgroup":"ATW",
+	"tasknm":"Guest Boarding At A/C",
+	"taskdescription":"Base Flight Guest boarding at aircraft",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000018",
+	"taskid":"TSK000018",
+	"taskgroup":"ATW",
+	"tasknm":"LIFB Final To CPT",
+	"taskdescription":"LIFB Final to Captain",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000019",
+	"taskid":"TSK000019",
+	"taskgroup":"BTW",
+	"tasknm":"Final WAC",
+	"taskdescription":"Final Walk-around checks",
+	"iscaamsenable":"N",
+	"departmentcode":"ENGG",
+	"deptid":"DEP003"
+},
+{
+	"id":"TSK000020",
+	"taskid":"TSK000020",
+	"taskgroup":"BTW",
+	"tasknm":"Holds Open & Close",
+	"taskdescription":"Holds opening and Closing Activity",
+	"iscaamsenable":"N",
+	"departmentcode":"ENGG",
+	"deptid":"DEP003"
+},
+{
+	"id":"TSK000021",
+	"taskid":"TSK000021",
+	"taskgroup":"ATW",
+	"tasknm":"ARC Signed",
+	"taskdescription":"ARC Signed",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000022",
+	"taskid":"TSK000022",
+	"taskgroup":"BTW",
+	"tasknm":"A/C Door Close",
+	"taskdescription":"Report A/C Door Close for Transit flights",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000023",
+	"taskid":"TSK000023",
+	"taskgroup":"BTW",
+	"tasknm":"A/C Door Close",
+	"taskdescription":"Report A/C Door Closing for Base flights",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000024",
+	"taskid":"TSK000024",
+	"taskgroup":"BTW",
+	"tasknm":"Aerobridge/Ladder Removed",
+	"taskdescription":"Aerobridge / Ladder Removed",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000025",
+	"taskid":"TSK000025",
+	"taskgroup":"ATW",
+	"tasknm":"Check-In Counter Ops",
+	"taskdescription":"Check-In counter operations",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000026",
+	"taskid":"TSK000026",
+	"taskgroup":"BTW",
+	"tasknm":" Anti-Sabotage Check",
+	"taskdescription":"Pre-Flight anti-sabotage checks",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000027",
+	"taskid":"TSK000027",
+	"taskgroup":"ATW",
+	"tasknm":"Cabin Crew At BG",
+	"taskdescription":"Cabin Crew reporting at Boarding Gate",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000028",
+	"taskid":"TSK000028",
+	"taskgroup":"ATW",
+	"tasknm":"Cockpit Crew At BG",
+	"taskdescription":"Base Flight Cockpit Crew reporting at Boarding Gate",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000029",
+	"taskid":"TSK000029",
+	"taskgroup":"ATW",
+	"tasknm":"Cabin Crew At A/C",
+	"taskdescription":"Base Flight Cabin Crew Reporting at A/C Door",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000030",
+	"taskid":"TSK000030",
+	"taskgroup":"ATW",
+	"tasknm":"Cockpit Crew At A/C",
+	"taskdescription":"Base Flight Cockpit Crew Reporting at A/C Door",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000031",
+	"taskid":"TSK000031",
+	"taskgroup":"BTW",
+	"tasknm":"Chocks Off",
+	"taskdescription":"Chocks Off",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000032",
+	"taskid":"TSK000032",
+	"taskgroup":"BTW",
+	"tasknm":"Tech log & Fuel Slip Signed",
+	"taskdescription":"Tech log & Fuel Slip Signed",
+	"iscaamsenable":"N",
+	"departmentcode":"ENGG",
+	"deptid":"DEP003"
+},
+{
+	"id":"TSK000033",
+	"taskid":"TSK000033",
+	"taskgroup":"BTW",
+	"tasknm":"Annex 17 Procedure",
+	"taskdescription":"Annex 17 Procedure Completion",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000034",
+	"taskid":"TSK000034",
+	"taskgroup":"BTW",
+	"tasknm":"Chocks On",
+	"taskdescription":"Chocks On",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000035",
+	"taskid":"TSK000035",
+	"taskgroup":"ATW",
+	"tasknm":"Planned LIFB Accepted",
+	"taskdescription":"Planned LIFB Accepted for Base Flight",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000036",
+	"taskid":"TSK000036",
+	"taskgroup":"BTW",
+	"tasknm":"Tug Activity",
+	"taskdescription":"Tug Acivity for Base Flight",
+	"iscaamsenable":"N",
+	"departmentcode":"ENGG",
+	"deptid":"DEP003"
+},
+{
+	"id":"TSK000037",
+	"taskid":"TSK000037",
+	"taskgroup":"BTW",
+	"tasknm":"Cargo Door Open",
+	"taskdescription":"Cargo Door Open",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000038",
+	"taskid":"TSK000038",
+	"taskgroup":"BTW",
+	"tasknm":"Cargo Door Close",
+	"taskdescription":"Cargo Door Close",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+},
+{
+	"id":"TSK000039",
+	"taskid":"TSK000039",
+	"taskgroup":"ATW",
+	"tasknm":"Crew BA Test",
+	"taskdescription":"Breath Analyser Test for Crew",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000040",
+	"taskid":"TSK000040",
+	"taskgroup":"ATW",
+	"tasknm":"Crew At Gate",
+	"taskdescription":"Crew Reporting at Gate for Transit Flight of 30 mins",
+	"iscaamsenable":"N",
+	"departmentcode":"GS",
+	"deptid":"DEP002"
+},
+{
+	"id":"TSK000041",
+    "taskid":"TSK000041",
+	"taskgroup":"ATW",
+	"tasknm":"Crew At A/C",
+	"taskdescription":"Crew Reporting at A/C for Transit Flight of 30 mins",
+	"iscaamsenable":"N",
+	"departmentcode":"SECU",
+	"deptid":"DEP001"
+}
+]

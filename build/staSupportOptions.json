@@ -1,0 +1,6 @@
+{
+  "handle": ["333", "345", "442"],
+  "certify": ["333", "345", "772"],
+  "station_code": ["ADL", "CPT"],
+  "clc_station_code": ["HOG", "LOK"]
+}

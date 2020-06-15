@@ -1,0 +1,90 @@
+{ 
+	"id":"I51576-20191220-BLR",
+	"fltlegid":"I51576-20191220-BLR",
+	"crews":[ 
+	   { 
+		  "id":"1",
+		  "staffid":"1018496",
+		  "crewfirstname":"ABHIJIT",
+		  "crewlastname":"BHUSHAN",
+		  "crewbasestation":"BLR",
+		  "crewtype":"Cockpit Crew",
+		  "dutycode":"",
+		  "actingrank":"CP",
+		  "reportingdttm":"2019-12-20T00:00:00Z",
+		  "contactnumber":"9874563210"
+	   },
+	   { 
+		  "id":"2",
+		  "staffid":"1021581",
+		  "crewfirstname":"ARJUN",
+		  "crewlastname":"S A",
+		  "crewbasestation":"BLR",
+		  "crewtype":"Cockpit Crew",
+		  "dutycode":"",
+		  "actingrank":"FO",
+		  "reportingdttm":"2019-12-21T00:00:00Z",
+		  "contactnumber":"7896541230"
+	   },
+	   { 
+		  "id":"3",
+		  "staffid":"1011284",
+		  "crewfirstname":"SAMEER",
+		  "crewlastname":"RAUT",
+		  "crewbasestation":"BLR",
+		  "crewtype":"Cockpit Crew",
+		  "dutycode":"",
+		  "actingrank":"FO",
+		  "reportingdttm":"2019-12-22T00:00:00Z",
+		  "contactnumber":"9785463210"
+	   },
+	   { 
+		  "id":"4",
+		  "staffid":"1015578",
+		  "crewfirstname":"BHAWNA",
+		  "crewlastname":"RATHORE",
+		  "crewbasestation":"BLR",
+		  "crewtype":"Cabin Crew",
+		  "dutycode":"",
+		  "actingrank":"SC",
+		  "reportingdttm":"2019-12-23T00:00:00Z",
+		  "contactnumber":"9865743210"
+	   },
+	   { 
+		  "id":"5",
+		  "staffid":"1024171",
+		  "crewfirstname":"IMPANGLEMBA",
+		  "crewlastname":"",
+		  "crewbasestation":"BLR",
+		  "crewtype":"Cabin Crew",
+		  "dutycode":"",
+		  "actingrank":"CC",
+		  "reportingdttm":"2019-12-24T00:00:00Z",
+		  "contactnumber":"9784562130"
+	   },
+	   { 
+		  "id":"6",
+		  "staffid":"1022399",
+		  "crewfirstname":"ADARSH",
+		  "crewlastname":"MORE",
+		  "crewbasestation":"BLR",
+		  "crewtype":"Cabin Crew",
+		  "dutycode":"",
+		  "actingrank":"CC",
+		  "reportingdttm":"2019-12-25T00:00:00Z",
+		  "contactnumber":"9784562130"
+	   },
+	   { 
+		  "id":"7",
+		  "staffid":"1017835",
+		  "crewfirstname":"SANDHYA",
+		  "crewlastname":"NAIR",
+		  "crewbasestation":"BLR",
+		  "crewtype":"Cabin Crew",
+		  "dutycode":"",
+		  "actingrank":"CC",
+		  "reportingdttm":"2019-12-26T00:00:00Z",
+		  "contactnumber":"9784562130"
+	   }
+	]
+ }

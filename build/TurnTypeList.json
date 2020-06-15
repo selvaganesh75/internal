@@ -1,0 +1,22 @@
+[ 
+    { 
+    "id":"TRNTYP00001",
+    "turntype":"Base_Departure",
+    "turndescription":"Base flights departure for morning first wave"
+    },
+    { 
+    "id":"TRNTYP00002",
+    "turntype":"Transit_WO_Crew_change",
+    "turndescription":"Transit flights without crew change"
+    },
+    { 
+    "id":"TRNTYP00003",
+    "turntype":"Transit_With_Crew_change",
+    "turndescription":"Transit flights with crew change over at station"
+    },
+    { 
+    "id":"TRNTYP00004",
+    "turntype":"TRNTYP00003",
+    "turndescription":"Transit_With_Crew_change"
+    }
+    ]

@@ -1,0 +1,84 @@
+[
+  {
+    "id": "BLR",
+    "station": "BLR",
+    "name": "Kempegowda International Airport",
+    "icaocode": "VOBL",
+    "region": "APAC",
+    "city": "Bangalore",
+    "country": "India",
+    "gmtoffset": "+05:30",
+    "gmtvariance": "+05:30",
+    "isbasestation": "Y",
+    "mgt": "25"
+  },
+  {
+    "id": "IXR",
+    "station": "IXR",
+    "name": "Birsa Munda International",
+    "icaocode": "VERC",
+    "region": "APAC",
+    "city": "Ranchi",
+    "country": "India",
+    "gmtoffset": "+05:30",
+    "gmtvariance": "+05:30",
+    "isbasestation": "N",
+    "mgt": "25"
+  },
+
+  {
+    "id": "HYD",
+    "station": "HYD",
+    "name": "Rajiv Gandhi International Airport",
+    "icaocode": "VOHS",
+    "region": "APAC",
+    "city": "Hyderabad",
+    "country": "India",
+    "gmtoffset": "+05:30",
+    "gmtvariance": "+05:30",
+    "isbasestation": "N",
+    "mgt": "25"
+  },
+
+  {
+    "id": "DEL",
+    "station": "DEL",
+    "name": "Indira Gandhi International Airport",
+    "icaocode": "VIDP",
+    "region": "APAC",
+    "city": "Delhi",
+    "country": "India",
+    "gmtoffset": "+05:30",
+    "gmtvariance": "+05:30",
+    "isbasestation": "Y",
+    "mgt": "30"
+  },
+
+  {
+    "id": "CCU",
+    "station": "CCU",
+    "name": "Netaji Subhash Chandra Bose International Airport",
+    "icaocode": "VECC",
+    "region": "APAC",
+    "city": "Kolkata",
+    "country": "India",
+    "gmtoffset": "+05:30",
+    "gmtvariance": "+05:30",
+    "isbasestation": "Y",
+    "mgt": "25"
+  },
+
+  {
+    "id": "BOM",
+    "station": "BOM",
+    "name": "Chhatrapati Shivaji International Airport",
+    "icaocode": "VABB",
+    "region": "APAC",
+    "city": "Mumbai",
+    "country": "India",
+    "gmtoffset": "+05:30",
+    "gmtvariance": "+05:30",
+    "isbasestation": "Y",
+    "mgt": "35"
+  }
+]

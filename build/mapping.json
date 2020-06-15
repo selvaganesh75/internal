@@ -1,0 +1,2887 @@
+{
+  "eventstore": {
+    "mappings": {
+      "properties": {
+        "serviceType": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "empId": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "clientID": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "activityCaptureType": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "fltNbr": {
+          "type": "long"
+        },
+        "exterior": {
+          "type": "boolean"
+        },
+        "eventCreationSystem": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "Envelope": {
+          "properties": {
+            "Header": {
+              "properties": {
+                "eventHeader": {
+                  "properties": {
+                    "eventID": {
+                      "type": "text",
+                      "fields": {
+                        "keyword": {
+                          "ignore_above": 256,
+                          "type": "keyword"
+                        }
+                      }
+                    },
+                    "effEventCreationTime": {
+                      "type": "date"
+                    },
+                    "eventCreationTime": {
+                      "type": "date"
+                    },
+                    "eventCreationSystem": {
+                      "type": "text",
+                      "fields": {
+                        "keyword": {
+                          "ignore_above": 256,
+                          "type": "keyword"
+                        }
+                      }
+                    },
+                    "eventName": {
+                      "type": "text",
+                      "fields": {
+                        "keyword": {
+                          "ignore_above": 256,
+                          "type": "keyword"
+                        }
+                      }
+                    },
+                    "version": {
+                      "type": "text",
+                      "fields": {
+                        "keyword": {
+                          "ignore_above": 256,
+                          "type": "keyword"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Body": {
+              "properties": {
+                "FlightLeg": {
+                  "properties": {
+                    "OperationsFlightLeg": {
+                      "properties": {
+                        "arrDsprAreaCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "plnEnrtDur": {
+                          "type": "long"
+                        },
+                        "fltArrRtflInd": {
+                          "type": "long"
+                        },
+                        "gmtEstBoardStartDtTm": {
+                          "type": "date"
+                        },
+                        "arrDsprPosNbr": {
+                          "type": "long"
+                        },
+                        "gmtEstOfftheFldDtTm": {
+                          "type": "date"
+                        },
+                        "Equip": {
+                          "properties": {
+                            "cabin4Cnt": {
+                              "type": "long"
+                            },
+                            "eqpCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "wideBdyInd": {
+                              "type": "long"
+                            },
+                            "carrIataCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "maintEqpCd": {
+                              "type": "long"
+                            },
+                            "eqpDesc": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "asEqpCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "cabinTtlCnt": {
+                              "type": "long"
+                            },
+                            "seatConfigCd": {
+                              "type": "long"
+                            },
+                            "shareEquipCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "eqpTrmDt": {
+                              "type": "date"
+                            },
+                            "fleetType": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "eqpSplCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "cabin1Cnt": {
+                              "type": "long"
+                            },
+                            "iataAircraftType": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "cmsFleetType": {
+                              "type": "long"
+                            },
+                            "eqpEffDt": {
+                              "type": "date"
+                            },
+                            "longBdyInd": {
+                              "type": "long"
+                            },
+                            "cabin3Cnt": {
+                              "type": "long"
+                            },
+                            "custEquipDesc": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "maxSeatCnt": {
+                              "type": "long"
+                            },
+                            "equipDesc": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "acftMfrCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "dfltPseudoTailNbr": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "cabin2Cnt": {
+                              "type": "long"
+                            }
+                          }
+                        },
+                        "etDelayCmnt": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "lclEstArrDtTm": {
+                          "type": "date"
+                        },
+                        "psgrCntInd": {
+                          "type": "long"
+                        },
+                        "fltLegActvInd": {
+                          "type": "long"
+                        },
+                        "prevNoseNbr": {
+                          "type": "long"
+                        },
+                        "lclOffTheFldDtTm": {
+                          "type": "date"
+                        },
+                        "custDepGateNbr": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "fltCnclInd": {
+                          "type": "long"
+                        },
+                        "TtlSeatCnt": {
+                          "type": "long"
+                        },
+                        "fltNm": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "enRtDist": {
+                          "type": "float"
+                        },
+                        "gmtPsgrDoorOpnDtm": {
+                          "type": "date"
+                        },
+                        "fltDepDvrtInd": {
+                          "type": "long"
+                        },
+                        "gmtOutOfBlkDtTm": {
+                          "type": "date"
+                        },
+                        "fltDepRtblInd": {
+                          "type": "long"
+                        },
+                        "boardEndTm": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "lclBrkSetDtm": {
+                          "type": "date"
+                        },
+                        "fltGmtOrigDt": {
+                          "type": "date"
+                        },
+                        "fltArrXstpInd": {
+                          "type": "long"
+                        },
+                        "custDepGate": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "opsLegDepArptICAOCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "depGateBankId": {
+                          "type": "long"
+                        },
+                        "opsLegArrArptIATACd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "gmtEstDepDtTm": {
+                          "type": "date"
+                        },
+                        "gmtCrgoDoorClsDtm": {
+                          "type": "date"
+                        },
+                        "carrType": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "gmtEstArrDtTm": {
+                          "type": "date"
+                        },
+                        "depGateNbr": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "lclCrgoDoorOpnDtm": {
+                          "type": "date"
+                        },
+                        "fltArrOnlDvrtInd": {
+                          "type": "long"
+                        },
+                        "gmtCrgoDoorOpnDtm": {
+                          "type": "date"
+                        },
+                        "boardingTime": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "lclPsgrDoorClsDtm": {
+                          "type": "date"
+                        },
+                        "arrGateNbr": {
+                          "type": "long"
+                        },
+                        "lclAdcBrlDtm": {
+                          "type": "date"
+                        },
+                        "gmtEstOnTheFldDtTm": {
+                          "type": "date"
+                        },
+                        "lclAllPsgrDoorClsDtm": {
+                          "type": "date"
+                        },
+                        "boardStartDt": {
+                          "type": "date"
+                        },
+                        "fltRlseInd": {
+                          "type": "long"
+                        },
+                        "fltDepXstpInd": {
+                          "type": "long"
+                        },
+                        "IregOpernArrRsnCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "domIntInd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "lclEstBoardEndDtTm": {
+                          "type": "date"
+                        },
+                        "gmtOnTheFldDtTm": {
+                          "type": "date"
+                        },
+                        "OperationsLegSumm": {
+                          "properties": {
+                            "mstCalcMst": {
+                              "type": "long"
+                            }
+                          }
+                        },
+                        "fltDepOnlDvrtInd": {
+                          "type": "long"
+                        },
+                        "arrBagClaimUnitId": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "gmtPsgrDoorClsDtm": {
+                          "type": "date"
+                        },
+                        "fltArrDvrtInd": {
+                          "type": "long"
+                        },
+                        "fuelLoadInd": {
+                          "type": "long"
+                        },
+                        "opsFltNbr": {
+                          "type": "long"
+                        },
+                        "fltDepRtflInd": {
+                          "type": "long"
+                        },
+                        "depDelayRsnCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "dsptchSrc": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "prevTailNbr": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "PrevTtlSeatCnt": {
+                          "type": "long"
+                        },
+                        "arrDelayRsnCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "gmtInBlkDtTm": {
+                          "type": "date"
+                        },
+                        "gmtOffTheFldDtTm": {
+                          "type": "date"
+                        },
+                        "opsLegArrArptICAOCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "OperationsFlightLoad": {
+                          "properties": {
+                            "schedLegNbr": {
+                              "type": "long"
+                            },
+                            "secDaySvcFrtWt": {
+                              "type": "long"
+                            },
+                            "pitWt": {
+                              "type": "long"
+                            },
+                            "clrFuelInd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "FnlToGW": {
+                              "type": "long"
+                            },
+                            "airMailPriWt": {
+                              "type": "long"
+                            },
+                            "coachPsgrCnt": {
+                              "type": "long"
+                            },
+                            "fnlTakeOffGrossWt": {
+                              "type": "long"
+                            },
+                            "fMailWt": {
+                              "type": "long"
+                            },
+                            "firstPsgrCnt": {
+                              "type": "long"
+                            },
+                            "bagWt": {
+                              "type": "long"
+                            },
+                            "ttlPsgrCnt": {
+                              "type": "long"
+                            },
+                            "zeroFuelWt": {
+                              "type": "long"
+                            },
+                            "bagOnCnt": {
+                              "type": "long"
+                            },
+                            "psComatWt": {
+                              "type": "long"
+                            },
+                            "busPsgrCnt": {
+                              "type": "long"
+                            },
+                            "oddPcsActWt": {
+                              "type": "long"
+                            },
+                            "operEmptyWt": {
+                              "type": "long"
+                            },
+                            "mailOnCnt": {
+                              "type": "long"
+                            },
+                            "clrFuelWt": {
+                              "type": "long"
+                            },
+                            "frtWt": {
+                              "type": "long"
+                            },
+                            "fstFrtWt": {
+                              "type": "long"
+                            },
+                            "arrFuelWt": {
+                              "type": "long"
+                            },
+                            "comOnCnt": {
+                              "type": "long"
+                            },
+                            "depFuelWt": {
+                              "type": "long"
+                            },
+                            "waComatWt": {
+                              "type": "long"
+                            },
+                            "frtOnCnt": {
+                              "type": "long"
+                            },
+                            "unusblFuelWt": {
+                              "type": "long"
+                            }
+                          }
+                        },
+                        "secondGmtOutOfBlkDtTm": {
+                          "type": "date"
+                        },
+                        "fltDlsnInd": {
+                          "type": "long"
+                        },
+                        "gmtAllPsgrDoorClsDtm": {
+                          "type": "date"
+                        },
+                        "Acft": {
+                          "properties": {
+                            "curPtt": {
+                              "type": "long"
+                            },
+                            "unrtdInd": {
+                              "type": "boolean"
+                            },
+                            "cgoFlyTmGrp": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "acftOtInd": {
+                              "type": "boolean"
+                            },
+                            "accumLastOvrhlCycl": {
+                              "type": "long"
+                            },
+                            "grndEquipInd": {
+                              "type": "boolean"
+                            },
+                            "lastThrToffDt": {
+                              "type": "date"
+                            },
+                            "acftNotAvailInd": {
+                              "type": "boolean"
+                            },
+                            "chtrInd": {
+                              "type": "boolean"
+                            },
+                            "fcstFlyCyclsByDay": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "lessorCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "rsvdCrewSeats": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "psgrTaxiTmGrp": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "aircraftManufactureSerialNbr": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "fcstFlyHrsByDay": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "avgFlyCyclsByDay": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "lastSuccsflAutolandDt": {
+                              "type": "date"
+                            },
+                            "hfCommInd": {
+                              "type": "boolean"
+                            },
+                            "maxLandWt": {
+                              "type": "long"
+                            },
+                            "newAcarsInd": {
+                              "type": "boolean"
+                            },
+                            "lastStnAcVst": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "minOperWtEmpty": {
+                              "type": "long"
+                            },
+                            "psgrFlyTmGrp": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "acarsCockpitPrnInd": {
+                              "type": "boolean"
+                            },
+                            "maxTkofWt": {
+                              "type": "long"
+                            },
+                            "acftCondOtInd": {
+                              "type": "boolean"
+                            },
+                            "aircraftNoseNbr": {
+                              "type": "long"
+                            },
+                            "avgFlyHrsByDay": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "rdoPhoneNbr": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "seatConfigCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "accumLifetmMin": {
+                              "type": "long"
+                            },
+                            "delvPtt": {
+                              "type": "long"
+                            },
+                            "fleetType": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "mfrDt": {
+                              "type": "date"
+                            },
+                            "cgoPsgrInd": {
+                              "type": "boolean"
+                            },
+                            "pseudoTailNbr": {
+                              "type": "long"
+                            },
+                            "delvPtc": {
+                              "type": "long"
+                            },
+                            "ovrwtrQlfyInd": {
+                              "type": "boolean"
+                            },
+                            "accumLastOvrhlMin": {
+                              "type": "long"
+                            },
+                            "nonAmisInd": {
+                              "type": "boolean"
+                            },
+                            "lastOvrhlMin": {
+                              "type": "long"
+                            },
+                            "maxZeroFwt": {
+                              "type": "long"
+                            },
+                            "wngletInd": {
+                              "type": "long"
+                            },
+                            "custAcftInd": {
+                              "type": "boolean"
+                            },
+                            "ovrwrtExmptInd": {
+                              "type": "boolean"
+                            },
+                            "owInd": {
+                              "type": "boolean"
+                            },
+                            "wrntyInd": {
+                              "type": "boolean"
+                            },
+                            "maintInd": {
+                              "type": "boolean"
+                            },
+                            "movieInd": {
+                              "type": "boolean"
+                            },
+                            "accumLifetmCycl": {
+                              "type": "long"
+                            },
+                            "lseInd": {
+                              "type": "long"
+                            },
+                            "totOverhlLndg": {
+                              "type": "long"
+                            },
+                            "paintInd": {
+                              "type": "boolean"
+                            },
+                            "apuSerNbr": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "autoLandCurrcyStn": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "acftConfigCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "rducVertSepMinInd": {
+                              "type": "boolean"
+                            },
+                            "hiTmInd": {
+                              "type": "boolean"
+                            },
+                            "cgoTaxiTmGrp": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "delvFrom": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "rmkDet1": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "rmkDet2": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "satcomInd": {
+                              "type": "boolean"
+                            },
+                            "acPttSld": {
+                              "type": "long"
+                            },
+                            "acftBuyer": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "termDt": {
+                              "type": "date"
+                            },
+                            "secrInd": {
+                              "type": "boolean"
+                            },
+                            "totLndgCnt": {
+                              "type": "long"
+                            },
+                            "acftBarCode": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "afpamInd": {
+                              "type": "boolean"
+                            },
+                            "irsInd": {
+                              "type": "boolean"
+                            },
+                            "carrIataCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "condHiTmInd": {
+                              "type": "boolean"
+                            },
+                            "perfCd": {
+                              "type": "long"
+                            },
+                            "acarsCabinPrnInd": {
+                              "type": "boolean"
+                            },
+                            "apuHrToAcfthrFctr": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "propJetInd": {
+                              "type": "boolean"
+                            },
+                            "etopsInd": {
+                              "type": "boolean"
+                            },
+                            "lastSuccsflPltAutoLandDt": {
+                              "type": "date"
+                            },
+                            "longTermStorInd": {
+                              "type": "boolean"
+                            },
+                            "lowThrstInd": {
+                              "type": "boolean"
+                            },
+                            "lifeTm": {
+                              "type": "long"
+                            },
+                            "apuCyclToAcfthrFctr": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "interNavInd": {
+                              "type": "boolean"
+                            },
+                            "poaPos": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "convDt": {
+                              "type": "date"
+                            },
+                            "ovtmInd": {
+                              "type": "boolean"
+                            },
+                            "stageInd": {
+                              "type": "long"
+                            },
+                            "maxFuelCpcty": {
+                              "type": "long"
+                            },
+                            "mfrSerNbr": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "cvpInd": {
+                              "type": "boolean"
+                            },
+                            "acPtcSld": {
+                              "type": "long"
+                            },
+                            "artcCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "GsiCapableInd": {
+                              "type": "long"
+                            },
+                            "curPtc": {
+                              "type": "long"
+                            },
+                            "effDt": {
+                              "type": "date"
+                            },
+                            "lastApuHrFctrCalcDt": {
+                              "type": "date"
+                            },
+                            "paintScheme": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "wrntyExprDt": {
+                              "type": "date"
+                            },
+                            "tcasInd": {
+                              "type": "boolean"
+                            },
+                            "acarsCabinVideoInd": {
+                              "type": "boolean"
+                            },
+                            "aircraftTailNbr": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "kenlInd": {
+                              "type": "long"
+                            },
+                            "lastApuCyclFctrCalcDt": {
+                              "type": "date"
+                            },
+                            "sbfltCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "equipCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "rcvryInd": {
+                              "type": "boolean"
+                            },
+                            "ltrmStorInd": {
+                              "type": "boolean"
+                            },
+                            "autolandDtByMaintInd": {
+                              "type": "boolean"
+                            }
+                          }
+                        },
+                        "gateOutInd": {
+                          "type": "long"
+                        },
+                        "depDsprAreaCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "gmtAcarsInitDtm": {
+                          "type": "date"
+                        },
+                        "gmtBrkRlseDtm": {
+                          "type": "date"
+                        },
+                        "csCarrIataCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "opsLegDepOccurNbr": {
+                          "type": "long"
+                        },
+                        "fpmInd": {
+                          "type": "long"
+                        },
+                        "depDsprPosNbr": {
+                          "type": "long"
+                        },
+                        "acftCarrCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "depCountryCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "opsLegDepArptIATACd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "depBagSectorNbr": {
+                          "type": "long"
+                        },
+                        "EqpCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "gmtAdcBrlDtm": {
+                          "type": "date"
+                        },
+                        "TailNbr": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "lclOutOfBlkDtTm": {
+                          "type": "date"
+                        },
+                        "cargoFltInd": {
+                          "type": "long"
+                        },
+                        "fltLegLclDepDt": {
+                          "type": "date"
+                        },
+                        "fltArrNstpInd": {
+                          "type": "long"
+                        },
+                        "fltInInd": {
+                          "type": "long"
+                        },
+                        "lclCrgoDoorClsDtm": {
+                          "type": "date"
+                        },
+                        "noseNbr": {
+                          "type": "long"
+                        },
+                        "fltOutInd": {
+                          "type": "long"
+                        },
+                        "gmtEstBoardEndDtTm": {
+                          "type": "date"
+                        },
+                        "lclInBlkDtTm": {
+                          "type": "date"
+                        },
+                        "lclBrkRlseDtm": {
+                          "type": "date"
+                        },
+                        "schedLegNbr": {
+                          "type": "long"
+                        },
+                        "boardEndDt": {
+                          "type": "date"
+                        },
+                        "gmtBrkSetDtm": {
+                          "type": "date"
+                        },
+                        "psgrFltInd": {
+                          "type": "long"
+                        },
+                        "fltNoOpsInd": {
+                          "type": "long"
+                        },
+                        "FlightPrediction": {
+                          "properties": {
+                            "RETDStatus": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "Warning": {
+                              "type": "long"
+                            },
+                            "TailNbr": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "DepPrdctLcl": {
+                              "type": "date"
+                            },
+                            "PrdctReasons": {
+                              "properties": {
+                                "LinkFltReasons": {
+                                  "properties": {
+                                    "FlightInfo": {
+                                      "properties": {
+                                        "Origin": {
+                                          "type": "text",
+                                          "fields": {
+                                            "keyword": {
+                                              "ignore_above": 256,
+                                              "type": "keyword"
+                                            }
+                                          }
+                                        },
+                                        "Destination": {
+                                          "type": "text",
+                                          "fields": {
+                                            "keyword": {
+                                              "ignore_above": 256,
+                                              "type": "keyword"
+                                            }
+                                          }
+                                        },
+                                        "FltNumber": {
+                                          "type": "long"
+                                        },
+                                        "EstArrTimeLcl": {
+                                          "type": "date"
+                                        },
+                                        "FltLclOrigDt": {
+                                          "type": "date"
+                                        }
+                                      }
+                                    },
+                                    "Reason": {
+                                      "properties": {
+                                        "code": {
+                                          "type": "text",
+                                          "fields": {
+                                            "keyword": {
+                                              "ignore_above": 256,
+                                              "type": "keyword"
+                                            }
+                                          }
+                                        },
+                                        "petdLcl": {
+                                          "type": "date"
+                                        },
+                                        "petdGmt": {
+                                          "type": "date"
+                                        },
+                                        "serviceMins": {
+                                          "type": "long"
+                                        },
+                                        "content": {
+                                          "type": "text",
+                                          "fields": {
+                                            "keyword": {
+                                              "ignore_above": 256,
+                                              "type": "keyword"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "ArrPrdctGmt": {
+                              "type": "date"
+                            },
+                            "DepRdrqtLcl": {
+                              "type": "date"
+                            },
+                            "GmtEdctDtTm": {
+                              "type": "date"
+                            },
+                            "DepPrdctGmt": {
+                              "type": "date"
+                            },
+                            "SchedDepLcl": {
+                              "type": "date"
+                            },
+                            "ArrPrdctLcl": {
+                              "type": "date"
+                            },
+                            "EstDepLcl": {
+                              "type": "date"
+                            },
+                            "DepRdrqtGmt": {
+                              "type": "date"
+                            },
+                            "PETDStatus": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "NoseNbr": {
+                              "type": "long"
+                            },
+                            "SchedDepGmt": {
+                              "type": "date"
+                            },
+                            "EstDepGmt": {
+                              "type": "date"
+                            },
+                            "RdrqtReasons": {
+                              "properties": {
+                                "LinkFltReasons": {
+                                  "properties": {
+                                    "FlightInfo": {
+                                      "properties": {
+                                        "Origin": {
+                                          "type": "text",
+                                          "fields": {
+                                            "keyword": {
+                                              "ignore_above": 256,
+                                              "type": "keyword"
+                                            }
+                                          }
+                                        },
+                                        "Destination": {
+                                          "type": "text",
+                                          "fields": {
+                                            "keyword": {
+                                              "ignore_above": 256,
+                                              "type": "keyword"
+                                            }
+                                          }
+                                        },
+                                        "FltNumber": {
+                                          "type": "long"
+                                        },
+                                        "EstArrTimeLcl": {
+                                          "type": "date"
+                                        },
+                                        "FltLclOrigDt": {
+                                          "type": "date"
+                                        }
+                                      }
+                                    },
+                                    "ConnectTime": {
+                                      "type": "long"
+                                    },
+                                    "Reason": {
+                                      "properties": {
+                                        "code": {
+                                          "type": "text",
+                                          "fields": {
+                                            "keyword": {
+                                              "ignore_above": 256,
+                                              "type": "keyword"
+                                            }
+                                          }
+                                        },
+                                        "content": {
+                                          "type": "text",
+                                          "fields": {
+                                            "keyword": {
+                                              "ignore_above": 256,
+                                              "type": "keyword"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "fltRadioNbr": {
+                          "type": "long"
+                        },
+                        "fnlBagConnInd": {
+                          "type": "long"
+                        },
+                        "lclEstOfftheFldDtTm": {
+                          "type": "date"
+                        },
+                        "airlineIATACd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "ArrGateBankId": {
+                          "type": "long"
+                        },
+                        "fltOffInd": {
+                          "type": "long"
+                        },
+                        "OpsFltLegSqnr": {
+                          "type": "long"
+                        },
+                        "custArrGate": {
+                          "type": "long"
+                        },
+                        "fltArrRtblInd": {
+                          "type": "long"
+                        },
+                        "gmtOutOffBlkDtTm": {
+                          "type": "date"
+                        },
+                        "arrCountryCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "fltDepNstpInd": {
+                          "type": "long"
+                        },
+                        "fltDcsnInd": {
+                          "type": "long"
+                        },
+                        "RdoFltNbr": {
+                          "type": "long"
+                        },
+                        "lclPsgrDoorOpnDtm": {
+                          "type": "date"
+                        },
+                        "fltOnInd": {
+                          "type": "long"
+                        },
+                        "PrevEqpCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "custArrGateNbr": {
+                          "type": "long"
+                        },
+                        "lclEstOntheFldDtTm": {
+                          "type": "date"
+                        },
+                        "CustRefData": {
+                          "properties": {
+                            "BufferData": {
+                              "properties": {
+                                "gmtEstArrDtTm": {
+                                  "type": "date"
+                                },
+                                "lclEstArrDtTm": {
+                                  "type": "date"
+                                },
+                                "lclEstDepDtTm": {
+                                  "type": "date"
+                                },
+                                "fltLegActvInd": {
+                                  "type": "long"
+                                },
+                                "custStatusInfo": {
+                                  "properties": {
+                                    "FltLegStatus": {
+                                      "properties": {
+                                        "code": {
+                                          "type": "text",
+                                          "fields": {
+                                            "keyword": {
+                                              "ignore_above": 256,
+                                              "type": "keyword"
+                                            }
+                                          }
+                                        },
+                                        "statusType": {
+                                          "type": "text",
+                                          "fields": {
+                                            "keyword": {
+                                              "ignore_above": 256,
+                                              "type": "keyword"
+                                            }
+                                          }
+                                        },
+                                        "description": {
+                                          "type": "text",
+                                          "fields": {
+                                            "keyword": {
+                                              "ignore_above": 256,
+                                              "type": "keyword"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "displayInd": {
+                                      "type": "boolean"
+                                    },
+                                    "reasonType": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "gmtEstDepDtTm": {
+                                  "type": "date"
+                                },
+                                "delayCodes": {
+                                  "properties": {
+                                    "shortOpsArrDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "longOpsArrDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "arrDelayRsnCd": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "longOpsDepDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "shortOpsDepDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "custDepDelayRsnCustDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "arrCustRsnDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "custArrDelayRsnExpandCustDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "custDepDelayRsnEmplDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "custArrDelayRsnCustDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "custDepDelayRsnExpandCustDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "irropDepRsnCd": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "scoCustDepDelayRsnCd": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "fidsDepDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "fidsArrDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "custArrDelayRsnEmplDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "custDepDelayRsnCd": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "scoCustArrDelayRsnCd": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "longPubDepDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "custArrDelayRsnCd": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "shortPubDepDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "depCustRsnDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "irropArrRsnCd": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "shortPubArrDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "longPubArrDesc": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "depDelayRsnCd": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "fltCnclInd": {
+                                  "type": "long"
+                                }
+                              }
+                            },
+                            "depArptInfo": {
+                              "properties": {
+                                "arptStateCd": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "arptCity": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "arptCountryCd": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "arptName": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "arrArptInfo": {
+                              "properties": {
+                                "arptStateCd": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "arptCity": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "arptCountryCd": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "arptName": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "brdNowInd": {
+                              "type": "boolean"
+                            },
+                            "custStatusInfo": {
+                              "properties": {
+                                "FltLegStatus": {
+                                  "properties": {
+                                    "code": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "statusType": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    },
+                                    "description": {
+                                      "type": "text",
+                                      "fields": {
+                                        "keyword": {
+                                          "ignore_above": 256,
+                                          "type": "keyword"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "displayInd": {
+                                  "type": "boolean"
+                                },
+                                "reasonType": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "arrTerminal": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "delayCodes": {
+                              "properties": {
+                                "shortOpsArrDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "scoCustDepDelayRsnCd": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "fidsDepDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "longOpsArrDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "fidsArrDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "custArrDelayRsnEmplDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "custDepDelayRsnCd": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "scoCustArrDelayRsnCd": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "longPubDepDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "custArrDelayRsnCd": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "longOpsDepDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "shortOpsDepDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "custDepDelayRsnCustDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "shortPubDepDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "arrCustRsnDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "depCustRsnDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "custArrDelayRsnExpandCustDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "shortPubArrDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "longPubArrDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "custDepDelayRsnEmplDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "custArrDelayRsnCustDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                },
+                                "custDepDelayRsnExpandCustDesc": {
+                                  "type": "text",
+                                  "fields": {
+                                    "keyword": {
+                                      "ignore_above": 256,
+                                      "type": "keyword"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "depTerminal": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "depTerminalFids": {
+                              "type": "long"
+                            },
+                            "carrName": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "custCarrCode": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "acftTypeCode": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "starFltInd": {
+                          "type": "long"
+                        },
+                        "lclEstBoardStartDtTm": {
+                          "type": "date"
+                        },
+                        "opsLegArrOccurNbr": {
+                          "type": "long"
+                        },
+                        "lclAcarsInitDtm": {
+                          "type": "date"
+                        },
+                        "lclEstDepDtTm": {
+                          "type": "date"
+                        },
+                        "opsFltTypeCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "IregOpernDepRsnCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "secondLclOutOfBlkDtTm": {
+                          "type": "date"
+                        },
+                        "fltMishapInd": {
+                          "type": "long"
+                        },
+                        "lclOnTheFldDtTm": {
+                          "type": "date"
+                        },
+                        "acftChgInd": {
+                          "type": "long"
+                        }
+                      }
+                    },
+                    "ScheduledFlightLeg": {
+                      "properties": {
+                        "schedLegLclDepDate": {
+                          "type": "date"
+                        },
+                        "schedTaxiInMin": {
+                          "type": "long"
+                        },
+                        "schedLegNbr": {
+                          "type": "long"
+                        },
+                        "fltTypeCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "schedLegLclDepDtTm": {
+                          "type": "date"
+                        },
+                        "minSvcTmCalc": {
+                          "type": "long"
+                        },
+                        "schedLegDepArptICAOCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "fltNoOpsInd": {
+                          "type": "long"
+                        },
+                        "fltDir": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "schedTaxiOutMin": {
+                          "type": "long"
+                        },
+                        "Equip": {
+                          "properties": {
+                            "cabin4Cnt": {
+                              "type": "long"
+                            },
+                            "eqpCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "wideBdyInd": {
+                              "type": "long"
+                            },
+                            "carrIataCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "maintEqpCd": {
+                              "type": "long"
+                            },
+                            "eqpDesc": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "asEqpCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "cabinTtlCnt": {
+                              "type": "long"
+                            },
+                            "seatConfigCd": {
+                              "type": "long"
+                            },
+                            "shareEquipCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "eqpTrmDt": {
+                              "type": "date"
+                            },
+                            "fleetType": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "eqpSplCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "cabin1Cnt": {
+                              "type": "long"
+                            },
+                            "iataAircraftType": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "cmsFleetType": {
+                              "type": "long"
+                            },
+                            "eqpEffDt": {
+                              "type": "date"
+                            },
+                            "longBdyInd": {
+                              "type": "long"
+                            },
+                            "cabin3Cnt": {
+                              "type": "long"
+                            },
+                            "custEquipDesc": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "maxSeatCnt": {
+                              "type": "long"
+                            },
+                            "equipDesc": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "acftMfrCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "dfltPseudoTailNbr": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "cabin2Cnt": {
+                              "type": "long"
+                            }
+                          }
+                        },
+                        "schedFltNbr": {
+                          "type": "long"
+                        },
+                        "schedLegGMTArrDtTm": {
+                          "type": "date"
+                        },
+                        "schedLegLclArrDtTm": {
+                          "type": "date"
+                        },
+                        "MrktData": {
+                          "properties": {
+                            "mrktFltNbr": {
+                              "type": "long"
+                            },
+                            "mrktCarrIataCd": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            },
+                            "mrktCarrName": {
+                              "type": "text",
+                              "fields": {
+                                "keyword": {
+                                  "ignore_above": 256,
+                                  "type": "keyword"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "schedLegArrArptIATACd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "ssimCabinClass": {
+                          "type": "long"
+                        },
+                        "busOneInd": {
+                          "type": "long"
+                        },
+                        "longHaulInd": {
+                          "type": "long"
+                        },
+                        "schedLegDepArptIATACd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "schedLegGMTDepDtTm": {
+                          "type": "date"
+                        },
+                        "starFltInd": {
+                          "type": "long"
+                        },
+                        "ssimBookingClass": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "priorityFltInd": {
+                          "type": "long"
+                        },
+                        "schedEquipCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "airlineIataCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "intlInd": {
+                          "type": "long"
+                        },
+                        "schedFltGmtOrigDt": {
+                          "type": "date"
+                        },
+                        "schedLegArrArptICAOCd": {
+                          "type": "text",
+                          "fields": {
+                            "keyword": {
+                              "ignore_above": 256,
+                              "type": "keyword"
+                            }
+                          }
+                        },
+                        "acftChgInd": {
+                          "type": "long"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "transactionID": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "fltDepStn": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "interior": {
+          "type": "boolean"
+        },
+        "missionType": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "transactionSentTimestampZulu": {
+          "type": "date"
+        },
+        "lclFltArrDt": {
+          "type": "date"
+        },
+        "transactionCreatedTimestampZulu": {
+          "type": "date"
+        },
+        "eventName": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "id": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "applicationID": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "tailNbr": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "arrGate": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "docType": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "fltArrStn": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "turnStation": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "version": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "depGate": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "noseNbr": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "lclFltDepDt": {
+          "type": "date"
+        },
+        "topicId": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "inbOutbInd": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "carrierCode": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "eventTimestampZulu": {
+          "type": "date"
+        },
+        "airportCode": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "activityType": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "eventTimestampLocal": {
+          "type": "date"
+        },
+        "numberOfCleanersOnboard": {
+          "type": "long"
+        }
+      }
+    }
+  }
+}

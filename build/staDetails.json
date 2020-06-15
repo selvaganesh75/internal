@@ -1,0 +1,193 @@
+ {
+   "id": "f657d440-6d67-4fad-9f5e-3e2194fb2dab",
+   "station_code": "BIA",
+   "name": "Bangalore International Airport",
+   "region": "INDIA",
+   "city_code": "BAL",
+   "gmt_offset": "+08:30",
+   "fis_station": "HYD",
+   "icao_code": "MMMM",
+   "is_dgr_allowed": "Y",
+   "clc_station_code": "COK",
+   "closures": [
+       {
+           "id": "9d971866-dfd9-46fc-b5e2-60bc3d24a0c0",
+           "ac_type": "ALL",
+           "closure_id": "13112243",
+           "dop": "5234567",
+           "end_date": "2019-12-09T06:01:44Z",
+           "from_time": "01:10:00",
+           "offset": "0",
+           "remarks": "1",
+           "start_date": "2019-12-09T06:01:44Z",
+           "station_code": "BIA",
+           "to_time": "22:20:00"
+       },
+       {
+        "id": "dsaf-dfd9-46fc-b5e2-60bc3d24a0c0",
+        "ac_type": "Clo",
+        "closure_id": "ddd",
+        "dop": "5234aaa567",
+        "end_date": "2019-12-09T06:01:44Z",
+        "from_time": "01:10:00",
+        "offset": "2",
+        "remarks": "d",
+        "start_date": "2019-12-09T06:01:44Z",
+        "station_code": "SSS",
+        "to_time": "22:20:00"
+       }
+       
+   ],
+   "contacts": [
+       {
+           "id": "86b653cf-de6f-48fc-94b6-46ef610e5eda",
+           "type": "ews",
+           "name": "Helpline",
+           "phone1": "13435473753",
+           "phone2": "14323546573",
+           "phone3": "473547373",
+           "email": "ABCsdasdasd@email.com",
+           "fax": "1234456",
+           "op_hours_from": "3.0",
+           "op_hours_to": "4.0",
+           "effective_start_station_local": "2019-12-09T06:01:44Z",
+           "effective_end_station_local": "2019-12-09T06:01:44Z",
+           "aircraft_type_supported": "Y",
+           "station_code": "BIA",
+           "remarks": "2"
+       },
+       {
+        "id": "86b653cf-de6f-48fc-94b6-46ef610e5eda",
+        "type": "New",
+        "name": "Helpline",
+        "phone1": "13435473753",
+        "phone2": "14323546573",
+        "phone3": "473547373",
+        "email": "ABC@email.com",
+        "fax": "1234456",
+        "op_hours_from": "3.0",
+        "op_hours_to": "4.0",
+        "effective_start_station_local": "2019-12-09T06:01:44Z",
+        "effective_end_station_local": "2019-12-09T06:01:44Z",
+        "aircraft_type_supported": "Y",
+        "station_code": "BIA",
+        "remarks": "2"
+    }
+   ],
+   "beddings": [
+       {
+           "id": "2814de38-2d79-415f-ab6a-c6d435b6b246",
+           "station_code": "BIA",
+           "equipment_type": "BEDDING",
+           "equipment_name": "SQ Standard",
+           "equipment_remarks": "NA",
+           "effective_from_local_date_time": "2019-12-09T06:01:44Z",
+           "effective_to_local_date_time": "2019-12-09T06:01:44Z",
+           "sequence_number": "1"
+       }
+   ],
+   "caterings": [
+       {
+           "id": "f5af9969-74f2-4d02-8002-f635415c6a39",
+           "station_code": "BIA",
+           "equipment_type": "CATERING",
+           "equipment_name": "SQ Standard",
+           "equipment_remarks": "NA",
+           "effective_from_local_date_time": "2019-12-09T06:01:44Z",
+           "effective_to_local_date_time": "2019-12-09T06:01:44Z",
+           "sequence_number": "1"
+       }
+   ],
+   "facilities": [
+       {
+           "id": "3773f9b9-4699-4e73-a79f-01cf6b2993b5",
+           "station_code": "",
+           "type": "",
+           "name": "",
+           "available_location": "",
+           "available_terminal": "",
+           "hours_start_local": "5.0",
+           "hours_end_local": "6.0",
+           "dop_pattern": "NA",
+           "effective_from_date_local": "2019-12-09T06:01:44Z",
+           "effective_end_date_local": "2019-12-09T06:01:44Z",
+           "remarks": "12"
+       },
+       {
+        "id": "ddd-4699-4e73-a79f-01cf6b2993b5",
+        "station_code": "fda",
+        "type": "Gfdd",
+        "name": "dfs",
+        "available_location": "ggg",
+        "available_terminal": "NN",
+        "hours_start_local": "5.0",
+        "hours_end_local": "6.0",
+        "dop_pattern": "fff",
+        "effective_from_date_local": "2019-12-09T06:01:44Z",
+        "effective_end_date_local": "2019-12-09T06:01:44Z",
+        "remarks": "12sd"
+    }
+   ],
+   "minimum_ground_times": [
+       {
+           "id": "6ff1371f-171c-49ba-b5cd-97c3d12a3e9a",
+           "ac_type": "155",
+           "station_code": "BIA",
+           "arr_station": "SIN",
+           "turn_around_time": "04:10",
+           "remarks": "Inserted for mgt Update For A155",
+           "effective_from_date_utc": "2019-12-09T06:01:44Z",
+           "effective_to_date_utc": "2019-12-09T06:01:44Z"
+       },
+       {
+        "id": "dfdf-171c-49ba-b5cd-97c3d12a3e9a",
+        "ac_type": "12255",
+        "station_code": "FRG",
+        "arr_station": "asdfsdaf",
+        "turn_around_time": "04:10",
+        "remarks": "dfsfsd for mgt Update For A155",
+        "effective_from_date_utc": "2019-12-09T06:01:44Z",
+        "effective_to_date_utc": "2019-12-09T06:01:44Z"
+    }
+   ],
+   "gmts": [
+       {
+           "id": "0e533cc6-cd23-48a9-9dcf-cb403fb24e4f",
+           "station_code": "BIA",
+           "variance": "05:70",
+           "start_date_time": "2019-12-09T01:01:44Z"
+       },
+       {
+        "id": "0e533cc6-cd23-48a9-9dcf-cb403fb24e4f",
+        "station_code": "BIA",
+        "variance": "07:70",
+        "start_date_time": "2100-12-09T06:01:44Z"
+    }
+   ],
+   "star_alliances": [],
+   "alternate_stations": [
+       {
+           "id": "fee42e80-2590-4cf5-90c1-8a034b2ba73d",
+           "station_code": "BIA",
+           "alternate_airport": "Kollam",
+           "city_code": "RTY",
+           "icao_code": "W110",
+           "is_preferred": "Y"
+       }
+   ],
+   "is_catering_station": "ZZZZzfg",
+   "handle": [
+       {
+           "id": "960cdde5-7a44-4624-8343-e6e8e64377a1",
+           "ac_type": "442",
+           "station_code": "BIA"
+       }
+   ],
+   "certify": [
+       {
+           "id": "05ff3cfc-fccf-43d4-9058-c6ae164759ac",
+           "ac_type": "772",
+           "station_code": "BIA"
+       }
+   ]
+}

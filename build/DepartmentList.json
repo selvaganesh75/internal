@@ -1,0 +1,16 @@
+[{
+    "id": "DEP001",
+    "departmentname": "SECURITY",
+    "departmentcode": "SECU"
+  },
+  {
+    "id": "DEP002",
+    "departmentname": "Ground Services",
+    "departmentcode": "GS"
+  },
+  {
+    "id": "DEP003",
+    "departmentname": "Engineering",
+    "departmentcode": "ENGG"
+  }
+]

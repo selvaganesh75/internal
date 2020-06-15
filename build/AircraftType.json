@@ -1,0 +1,29 @@
+[
+  {
+    "id": "A320",
+    "internalaircrafttype": "A320",
+    "iataaircrafttype": "A320",
+    "owner": null,
+    "fleetcategory": null,
+    "cargopayload": null,
+    "overallpayload": null,
+    "mgt": 0,
+    "capacitydescription": null,
+    "crewbank": null,
+    "crewbank": null,
+    "fseattype": null,
+    "fcapacity": 0,
+    "ftoilets": 0,
+    "bseattype": null,
+    "bcapacity": 0,
+    "btoilets": 0,
+    "pseattype": null,
+    "pcapacity": 0,
+    "ptoilets": 0,
+    "eseattype": null,
+    "ecapacity": 0,
+    "etoilets": 0,
+    "remarks": null,
+    "gallerytype": null
+  }
+]

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.863" height="21.863" viewBox="0 0 21.863 21.863">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2,.cls-3{stroke:none}.cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="_029-contract" data-name="029-contract" transform="translate(0 -.006)">
+        <g id="Group_4" data-name="Group 4" transform="translate(0 .006)">
+            <g id="Group_3" data-name="Group 3">
+                <g id="Path_3" class="cls-1" data-name="Path 3">
+                    <path d="M16.611.006H0v21.863h16.611v-3.35l-2.067 2.067-3.618.009-.009-3.631 5.694-5.694zM5.68 2.57h5.251v1.281H5.68zm0 16.734H2.564v-1.28H5.68zm1.282-2.564h-4.4v-1.281h4.4v1.281zm7.086-5.2H2.564v-1.278h11.484zm0-2.564H2.564V7.7h11.484zm0-2.564H2.564V5.134h11.484z" class="cls-2" transform="translate(0 -.006)"/>
+                    <path d="M2 2.006v1.128H3.68V2.006H2m10.931 0v1.128h1.68V2.006h-1.68M8.962 13.543v2.546l.541-.54 2.006-2.006H8.962M7.68 18.74v1.129h1.245l-.003-1.129H7.68M0 .006h16.611v11.263l-5.694 5.694.01 3.631 3.618-.009 2.066-2.067v3.35H0V.007zm10.931 3.845v-1.28h-5.25v1.28h5.25zm3.117 2.564v-1.28H2.564v1.28h11.484zm0 2.564V7.7H2.564v1.28h11.484zm0 2.564v-1.28H2.564v1.28h11.484zM6.962 16.74v-1.28H2.564v1.28h4.398zM5.68 19.305v-1.281H2.564v1.28H5.68z" class="cls-3" transform="translate(0 -.006)"/>
+                </g>
+            </g>
+        </g>
+        <g id="Group_6" data-name="Group 6" transform="translate(12.2 9.642)">
+            <g id="Group_5" data-name="Group 5">
+                <g id="Path_4" class="cls-1" data-name="Path 4">
+                    <path d="M293.547 225.664l-7.85 7.85v1.818h1.808l7.85-7.85z" class="cls-2" transform="translate(-285.697 -225.664)"/>
+                    <path d="M293.547 225.664l1.813 1.813-7.85 7.85-1.808.005-.005-1.818 7.85-7.85z" class="cls-3" transform="translate(-285.697 -225.664)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,791 @@
+[
+  {
+    "enterpriseId": "UA",
+    "signalId": "UA_OUT_FLIFO",
+    "signalName": "OUT",
+    "signalDomain": "FLIFO",
+    "signalDescription": "This is dummy Signal",
+    "signalSource": "test",
+    "signalMode": "test",
+    "apiendpointurl": "localhost",
+    "apirrefreshinterval": "100",
+    "signalContent": {
+      "sourcemessage": {
+        "mappings": {
+          "dynamic_templates": [
+            {
+              "integers": {
+                "match_mapping_type": "long",
+                "mapping": { "type": "keyword" }
+              }
+            },
+            {
+              "strings": {
+                "match_mapping_type": "string",
+                "mapping": { "type": "keyword" }
+              }
+            }
+          ],
+          "properties": {
+            "Envelope": {
+              "properties": {
+                "Body": {
+                  "properties": {
+                    "FlightLeg": {
+                      "properties": {
+                        "OperationsFlightLeg": {
+                          "properties": {
+                            "Acft": {
+                              "properties": {
+                                "GsiCapableInd": { "type": "keyword" },
+                                "acPtcSld": { "type": "keyword" },
+                                "acPttSld": { "type": "keyword" },
+                                "acarsCabinPrnInd": { "type": "boolean" },
+                                "acarsCabinVideoInd": { "type": "boolean" },
+                                "acarsCockpitPrnInd": { "type": "boolean" },
+                                "accumLastOvrhlCycl": { "type": "keyword" },
+                                "accumLastOvrhlMin": { "type": "keyword" },
+                                "accumLifetmCycl": { "type": "keyword" },
+                                "accumLifetmMin": { "type": "keyword" },
+                                "acftBarCode": { "type": "keyword" },
+                                "acftBuyer": { "type": "keyword" },
+                                "acftCondOtInd": { "type": "boolean" },
+                                "acftConfigCd": { "type": "keyword" },
+                                "acftNotAvailInd": { "type": "boolean" },
+                                "acftOtInd": { "type": "boolean" },
+                                "afpamInd": { "type": "boolean" },
+                                "aircraftManufactureSerialNbr": {
+                                  "type": "keyword"
+                                },
+                                "aircraftNoseNbr": { "type": "keyword" },
+                                "aircraftTailNbr": { "type": "keyword" },
+                                "apuCyclToAcfthrFctr": { "type": "keyword" },
+                                "apuHrToAcfthrFctr": { "type": "keyword" },
+                                "apuSerNbr": { "type": "keyword" },
+                                "artcCd": { "type": "keyword" },
+                                "autoLandCurrcyStn": { "type": "keyword" },
+                                "autolandDtByMaintInd": { "type": "boolean" },
+                                "avgFlyCyclsByDay": { "type": "float" },
+                                "avgFlyHrsByDay": { "type": "float" },
+                                "brkRteRsnCd": { "type": "keyword" },
+                                "carrIataCd": { "type": "keyword" },
+                                "cgoFlyTmGrp": { "type": "keyword" },
+                                "cgoPsgrInd": { "type": "boolean" },
+                                "cgoTaxiTmGrp": { "type": "keyword" },
+                                "chtrInd": { "type": "boolean" },
+                                "condHiTmInd": { "type": "boolean" },
+                                "convDt": { "type": "date" },
+                                "curPtc": { "type": "keyword" },
+                                "curPtt": { "type": "keyword" },
+                                "custAcftInd": { "type": "boolean" },
+                                "cvpInd": { "type": "boolean" },
+                                "delvFrom": { "type": "keyword" },
+                                "delvPtc": { "type": "keyword" },
+                                "delvPtt": { "type": "keyword" },
+                                "effDt": { "type": "date" },
+                                "equipCd": { "type": "keyword" },
+                                "etopsInd": { "type": "boolean" },
+                                "fcstFlyCyclsByDay": { "type": "keyword" },
+                                "fcstFlyHrsByDay": { "type": "keyword" },
+                                "fleetType": { "type": "keyword" },
+                                "grndEquipInd": { "type": "boolean" },
+                                "hfCommInd": { "type": "boolean" },
+                                "hiTmInd": { "type": "boolean" },
+                                "interNavInd": { "type": "boolean" },
+                                "irsInd": { "type": "boolean" },
+                                "kenlInd": { "type": "keyword" },
+                                "lastApuCyclFctrCalcDt": { "type": "date" },
+                                "lastApuHrFctrCalcDt": { "type": "date" },
+                                "lastOvrhlMin": { "type": "keyword" },
+                                "lastStnAcVst": { "type": "keyword" },
+                                "lastSuccsflAutolandDt": { "type": "date" },
+                                "lastSuccsflPltAutoLandDt": { "type": "date" },
+                                "lastThrToffDt": { "type": "date" },
+                                "lessorCd": { "type": "keyword" },
+                                "lifeTm": { "type": "keyword" },
+                                "longTermStorInd": { "type": "boolean" },
+                                "lowThrstInd": { "type": "boolean" },
+                                "lseInd": { "type": "keyword" },
+                                "ltrmStorInd": { "type": "boolean" },
+                                "maintInd": { "type": "boolean" },
+                                "maxFuelCpcty": { "type": "keyword" },
+                                "maxLandWt": { "type": "keyword" },
+                                "maxTkofWt": { "type": "keyword" },
+                                "maxZeroFwt": { "type": "keyword" },
+                                "mfrDt": { "type": "date" },
+                                "mfrSerNbr": { "type": "keyword" },
+                                "minOperWtEmpty": { "type": "keyword" },
+                                "movieInd": { "type": "boolean" },
+                                "newAcarsInd": { "type": "boolean" },
+                                "nonAmisInd": { "type": "boolean" },
+                                "ovrwrtExmptInd": { "type": "boolean" },
+                                "ovrwtrQlfyInd": { "type": "boolean" },
+                                "ovtmInd": { "type": "boolean" },
+                                "owInd": { "type": "boolean" },
+                                "paintInd": { "type": "boolean" },
+                                "paintScheme": { "type": "keyword" },
+                                "perfCd": { "type": "keyword" },
+                                "poaPos": { "type": "keyword" },
+                                "propJetInd": { "type": "boolean" },
+                                "pseudoTailNbr": { "type": "keyword" },
+                                "psgrFlyTmGrp": { "type": "keyword" },
+                                "psgrTaxiTmGrp": { "type": "keyword" },
+                                "rcvryInd": { "type": "boolean" },
+                                "rdoPhoneNbr": { "type": "keyword" },
+                                "rducVertSepMinInd": { "type": "boolean" },
+                                "rmkDet1": { "type": "keyword" },
+                                "rmkDet2": { "type": "keyword" },
+                                "rmkDet3": { "type": "keyword" },
+                                "rsvdCrewSeats": { "type": "keyword" },
+                                "satcomInd": { "type": "boolean" },
+                                "sbfltCd": { "type": "keyword" },
+                                "seatConfigCd": { "type": "keyword" },
+                                "secrInd": { "type": "boolean" },
+                                "stageInd": { "type": "keyword" },
+                                "tcasInd": { "type": "boolean" },
+                                "termDt": { "type": "date" },
+                                "totLndgCnt": { "type": "keyword" },
+                                "totOverhlLndg": { "type": "keyword" },
+                                "unrtdInd": { "type": "boolean" },
+                                "unrtdStn": { "type": "keyword" },
+                                "wngletInd": { "type": "keyword" },
+                                "wrntyExprDt": { "type": "date" },
+                                "wrntyInd": { "type": "boolean" }
+                              }
+                            },
+                            "ArrGateBankId": { "type": "keyword" },
+                            "CustRefData": {
+                              "properties": {
+                                "BufferData": {
+                                  "properties": {
+                                    "custFlifoStoryDesc": { "type": "keyword" },
+                                    "custStatusInfo": {
+                                      "properties": {
+                                        "FltLegStatus": {
+                                          "properties": {
+                                            "code": { "type": "keyword" },
+                                            "description": {
+                                              "type": "keyword"
+                                            },
+                                            "statusType": { "type": "keyword" }
+                                          }
+                                        },
+                                        "displayInd": { "type": "boolean" },
+                                        "reasonType": { "type": "keyword" }
+                                      }
+                                    },
+                                    "delayCodes": {
+                                      "properties": {
+                                        "arrCustRsnDesc": { "type": "keyword" },
+                                        "arrDelayRsnCd": { "type": "keyword" },
+                                        "custArrDelayRsnCd": {
+                                          "type": "keyword"
+                                        },
+                                        "custArrDelayRsnCustDesc": {
+                                          "type": "keyword"
+                                        },
+                                        "custArrDelayRsnEmplDesc": {
+                                          "type": "keyword"
+                                        },
+                                        "custArrDelayRsnExpandCustDesc": {
+                                          "type": "keyword"
+                                        },
+                                        "custDepDelayRsnCd": {
+                                          "type": "keyword"
+                                        },
+                                        "custDepDelayRsnCustDesc": {
+                                          "type": "keyword"
+                                        },
+                                        "custDepDelayRsnEmplDesc": {
+                                          "type": "keyword"
+                                        },
+                                        "custDepDelayRsnExpandCustDesc": {
+                                          "type": "keyword"
+                                        },
+                                        "depCustRsnDesc": { "type": "keyword" },
+                                        "depDelayRsnCd": { "type": "keyword" },
+                                        "fidsArrDesc": { "type": "keyword" },
+                                        "fidsDepDesc": { "type": "keyword" },
+                                        "irropArrRsnCd": { "type": "keyword" },
+                                        "irropDepRsnCd": { "type": "keyword" },
+                                        "longOpsArrDesc": { "type": "keyword" },
+                                        "longOpsDepDesc": { "type": "keyword" },
+                                        "longPubArrDesc": { "type": "keyword" },
+                                        "longPubDepDesc": { "type": "keyword" },
+                                        "scoCustArrDelayRsnCd": {
+                                          "type": "keyword"
+                                        },
+                                        "scoCustDepDelayRsnCd": {
+                                          "type": "keyword"
+                                        },
+                                        "shortOpsArrDesc": {
+                                          "type": "keyword"
+                                        },
+                                        "shortOpsDepDesc": {
+                                          "type": "keyword"
+                                        },
+                                        "shortPubArrDesc": {
+                                          "type": "keyword"
+                                        },
+                                        "shortPubDepDesc": { "type": "keyword" }
+                                      }
+                                    },
+                                    "fltCnclInd": { "type": "keyword" },
+                                    "fltLegActvInd": { "type": "keyword" },
+                                    "gmtEstArrDtTm": { "type": "date" },
+                                    "gmtEstDepDtTm": { "type": "date" },
+                                    "lclEstArrDtTm": { "type": "date" },
+                                    "lclEstDepDtTm": { "type": "date" }
+                                  }
+                                },
+                                "acftTypeCode": { "type": "keyword" },
+                                "arrArptInfo": {
+                                  "properties": {
+                                    "arptCity": { "type": "keyword" },
+                                    "arptCountryCd": { "type": "keyword" },
+                                    "arptName": { "type": "keyword" },
+                                    "arptStateCd": { "type": "keyword" }
+                                  }
+                                },
+                                "arrTerminal": { "type": "keyword" },
+                                "arrTerminalFids": { "type": "keyword" },
+                                "boardStatus": { "type": "keyword" },
+                                "brdNowInd": { "type": "boolean" },
+                                "brdTmstmp": { "type": "keyword" },
+                                "carrName": { "type": "keyword" },
+                                "custCarrCode": { "type": "keyword" },
+                                "custFlifoStoryDesc": { "type": "keyword" },
+                                "custStatusInfo": {
+                                  "properties": {
+                                    "FltLegStatus": {
+                                      "properties": {
+                                        "code": { "type": "keyword" },
+                                        "description": { "type": "keyword" },
+                                        "statusType": { "type": "keyword" }
+                                      }
+                                    },
+                                    "displayInd": { "type": "boolean" },
+                                    "reasonType": { "type": "keyword" }
+                                  }
+                                },
+                                "delayCodes": {
+                                  "properties": {
+                                    "arrCustRsnDesc": { "type": "keyword" },
+                                    "custArrDelayRsnCd": { "type": "keyword" },
+                                    "custArrDelayRsnCustDesc": {
+                                      "type": "keyword"
+                                    },
+                                    "custArrDelayRsnEmplDesc": {
+                                      "type": "keyword"
+                                    },
+                                    "custArrDelayRsnExpandCustDesc": {
+                                      "type": "keyword"
+                                    },
+                                    "custDepDelayRsnCd": { "type": "keyword" },
+                                    "custDepDelayRsnCustDesc": {
+                                      "type": "keyword"
+                                    },
+                                    "custDepDelayRsnEmplDesc": {
+                                      "type": "keyword"
+                                    },
+                                    "custDepDelayRsnExpandCustDesc": {
+                                      "type": "keyword"
+                                    },
+                                    "depCustRsnDesc": { "type": "keyword" },
+                                    "fidsArrDesc": { "type": "keyword" },
+                                    "fidsDepDesc": { "type": "keyword" },
+                                    "longOpsArrDesc": { "type": "keyword" },
+                                    "longOpsDepDesc": { "type": "keyword" },
+                                    "longPubArrDesc": { "type": "keyword" },
+                                    "longPubDepDesc": { "type": "keyword" },
+                                    "scoCustArrDelayRsnCd": {
+                                      "type": "keyword"
+                                    },
+                                    "scoCustDepDelayRsnCd": {
+                                      "type": "keyword"
+                                    },
+                                    "shortOpsArrDesc": { "type": "keyword" },
+                                    "shortOpsDepDesc": { "type": "keyword" },
+                                    "shortPubArrDesc": { "type": "keyword" },
+                                    "shortPubDepDesc": { "type": "keyword" }
+                                  }
+                                },
+                                "depArptInfo": {
+                                  "properties": {
+                                    "arptCity": { "type": "keyword" },
+                                    "arptCountryCd": { "type": "keyword" },
+                                    "arptName": { "type": "keyword" },
+                                    "arptStateCd": { "type": "keyword" }
+                                  }
+                                },
+                                "depTerminal": { "type": "keyword" },
+                                "depTerminalFids": { "type": "keyword" },
+                                "edctRemarks": { "type": "keyword" },
+                                "shrGateInhbtInd": { "type": "keyword" }
+                              }
+                            },
+                            "DtCcoGmtDtm": { "type": "date" },
+                            "DtCcoLclDtm": { "type": "date" },
+                            "EqpCd": { "type": "keyword" },
+                            "Equip": {
+                              "properties": {
+                                "acftMfrCd": { "type": "keyword" },
+                                "asEqpCd": { "type": "keyword" },
+                                "cabin1Cnt": { "type": "keyword" },
+                                "cabin2Cnt": { "type": "keyword" },
+                                "cabin3Cnt": { "type": "keyword" },
+                                "cabin4Cnt": { "type": "keyword" },
+                                "cabinTtlCnt": { "type": "keyword" },
+                                "carrIataCd": { "type": "keyword" },
+                                "cmsFleetType": { "type": "keyword" },
+                                "custEquipDesc": { "type": "keyword" },
+                                "dfltPseudoTailNbr": { "type": "keyword" },
+                                "eqpCd": { "type": "keyword" },
+                                "eqpDesc": { "type": "keyword" },
+                                "eqpEffDt": { "type": "date" },
+                                "eqpSplCd": { "type": "keyword" },
+                                "eqpTrmDt": { "type": "date" },
+                                "equipDesc": { "type": "keyword" },
+                                "fleetType": { "type": "keyword" },
+                                "iataAircraftType": { "type": "keyword" },
+                                "longBdyInd": { "type": "keyword" },
+                                "maintEqpCd": { "type": "keyword" },
+                                "maxSeatCnt": { "type": "keyword" },
+                                "seatConfigCd": { "type": "keyword" },
+                                "shareEquipCd": { "type": "keyword" },
+                                "wideBdyInd": { "type": "keyword" }
+                              }
+                            },
+                            "ExtnAvailInd": { "type": "keyword" },
+                            "FlightPrediction": {
+                              "properties": {
+                                "ArrPrdctGmt": { "type": "date" },
+                                "ArrPrdctLcl": { "type": "date" },
+                                "DepPrdctGmt": { "type": "date" },
+                                "DepPrdctLcl": { "type": "date" },
+                                "DepRdrqtGmt": { "type": "date" },
+                                "DepRdrqtLcl": { "type": "date" },
+                                "EstDepGmt": { "type": "date" },
+                                "EstDepLcl": { "type": "date" },
+                                "MaxHoldGmt": { "type": "date" },
+                                "MaxHoldLcl": { "type": "date" },
+                                "NoseNbr": { "type": "keyword" },
+                                "PETDStatus": { "type": "keyword" },
+                                "PrdctReasons": {
+                                  "properties": {
+                                    "LinkFltReasons": {
+                                      "properties": {
+                                        "FlightInfo": {
+                                          "properties": {
+                                            "CarrCd": { "type": "keyword" },
+                                            "Destination": {
+                                              "type": "keyword"
+                                            },
+                                            "EstArrTimeLcl": { "type": "date" },
+                                            "FltLclOrigDt": { "type": "date" },
+                                            "FltNumber": { "type": "keyword" },
+                                            "Origin": { "type": "keyword" }
+                                          }
+                                        },
+                                        "Reason": {
+                                          "properties": {
+                                            "code": { "type": "keyword" },
+                                            "content": { "type": "keyword" },
+                                            "petdGmt": { "type": "date" },
+                                            "petdLcl": { "type": "date" },
+                                            "serviceMins": { "type": "keyword" }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "RETDStatus": { "type": "keyword" },
+                                "RcmdHoldGmt": { "type": "date" },
+                                "RcmdHoldLcl": { "type": "date" },
+                                "RdrqtReasons": {
+                                  "properties": {
+                                    "LinkFltReasons": {
+                                      "properties": {
+                                        "ConnectTime": { "type": "keyword" },
+                                        "FlightInfo": {
+                                          "properties": {
+                                            "Destination": {
+                                              "type": "keyword"
+                                            },
+                                            "EstArrTimeLcl": { "type": "date" },
+                                            "FltLclOrigDt": { "type": "date" },
+                                            "FltNumber": { "type": "keyword" },
+                                            "Origin": { "type": "keyword" }
+                                          }
+                                        },
+                                        "Reason": {
+                                          "properties": {
+                                            "code": { "type": "keyword" },
+                                            "content": { "type": "keyword" }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "SchedDepGmt": { "type": "date" },
+                                "SchedDepLcl": { "type": "date" },
+                                "TailNbr": { "type": "keyword" },
+                                "Warning": { "type": "keyword" }
+                              }
+                            },
+                            "FltCcoGmtDtm": { "type": "date" },
+                            "FltCcoLclDtm": { "type": "date" },
+                            "IregOpernArrRsnCd": { "type": "keyword" },
+                            "IregOpernDepRsnCd": { "type": "keyword" },
+                            "MaxTaxiTime": { "type": "keyword" },
+                            "MrCcoGmtDtm": { "type": "date" },
+                            "MrCcoLclDtm": { "type": "date" },
+                            "OperationsFlightLoad": {
+                              "properties": {
+                                "FnlToGW": { "type": "keyword" },
+                                "airMailPriWt": { "type": "keyword" },
+                                "arrFuelWt": { "type": "keyword" },
+                                "bagOnCnt": { "type": "keyword" },
+                                "bagWt": { "type": "keyword" },
+                                "busPsgrCnt": { "type": "keyword" },
+                                "clrFuelInd": { "type": "keyword" },
+                                "clrFuelWt": { "type": "keyword" },
+                                "coachPsgrCnt": { "type": "keyword" },
+                                "comOnCnt": { "type": "keyword" },
+                                "depFuelWt": { "type": "keyword" },
+                                "fMailWt": { "type": "keyword" },
+                                "firstPsgrCnt": { "type": "keyword" },
+                                "fnlTakeOffGrossWt": { "type": "keyword" },
+                                "frtOnCnt": { "type": "keyword" },
+                                "frtWt": { "type": "keyword" },
+                                "fstFrtWt": { "type": "keyword" },
+                                "fuelDense": { "type": "keyword" },
+                                "mailOnCnt": { "type": "keyword" },
+                                "oddPcsActWt": { "type": "keyword" },
+                                "operEmptyWt": { "type": "keyword" },
+                                "pitWt": { "type": "keyword" },
+                                "psComatWt": { "type": "keyword" },
+                                "schedLegNbr": { "type": "keyword" },
+                                "secDaySvcFrtWt": { "type": "keyword" },
+                                "ttlPsgrCnt": { "type": "keyword" },
+                                "unusblFuelWt": { "type": "keyword" },
+                                "waComatWt": { "type": "keyword" },
+                                "zeroFuelWt": { "type": "keyword" }
+                              }
+                            },
+                            "OperationsLegSumm": {
+                              "properties": {
+                                "QTInd": { "type": "keyword" },
+                                "actBlkBlkMin": { "type": "keyword" },
+                                "actFldFldMin": { "type": "keyword" },
+                                "actGrndTm": { "type": "keyword" },
+                                "arrDlyMin": { "type": "keyword" },
+                                "depDlyMin": { "type": "keyword" },
+                                "divisionDlyMin": { "type": "keyword" },
+                                "enrteMin": { "type": "keyword" },
+                                "inMstInd": { "type": "keyword" },
+                                "lateTurnMin": { "type": "keyword" },
+                                "mstCalcMst": { "type": "keyword" },
+                                "mstSuccessInd": { "type": "keyword" },
+                                "opsDlyDivId": { "type": "keyword" },
+                                "opsDlyGrpId": { "type": "keyword" },
+                                "recvryTm": { "type": "keyword" },
+                                "rgnCd": { "type": "keyword" },
+                                "schedBlkBlkMin": { "type": "keyword" },
+                                "schedGrndTm": { "type": "keyword" },
+                                "taxiinMin": { "type": "keyword" },
+                                "taxioutMin": { "type": "keyword" }
+                              }
+                            },
+                            "OpsFltLegSqnr": { "type": "keyword" },
+                            "PrevEqpCd": { "type": "keyword" },
+                            "PrevTtlSeatCnt": { "type": "keyword" },
+                            "RdoFltNbr": { "type": "keyword" },
+                            "TailNbr": { "type": "keyword" },
+                            "TtlSeatCnt": { "type": "keyword" },
+                            "acftCarrCd": { "type": "keyword" },
+                            "acftChgInd": { "type": "keyword" },
+                            "airlineIATACd": { "type": "keyword" },
+                            "arrBagClaimUnitId": { "type": "keyword" },
+                            "arrCountryCd": { "type": "keyword" },
+                            "arrDelayRsnCd": { "type": "keyword" },
+                            "arrDsprAreaCd": { "type": "keyword" },
+                            "arrDsprPosNbr": { "type": "keyword" },
+                            "arrGateNbr": { "type": "keyword" },
+                            "arrSubGateNbr": { "type": "keyword" },
+                            "boardEndDt": { "type": "date" },
+                            "boardEndTm": { "type": "keyword" },
+                            "boardStartDt": { "type": "date" },
+                            "boardingTime": { "type": "keyword" },
+                            "cargoFltInd": { "type": "keyword" },
+                            "carrType": { "type": "keyword" },
+                            "csCarrIataCd": { "type": "keyword" },
+                            "custArrGate": { "type": "keyword" },
+                            "custArrGateNbr": { "type": "keyword" },
+                            "custDepGate": { "type": "keyword" },
+                            "custDepGateNbr": { "type": "keyword" },
+                            "depBagSectorNbr": { "type": "keyword" },
+                            "depCountryCd": { "type": "keyword" },
+                            "depDelayRsnCd": { "type": "keyword" },
+                            "depDsprAreaCd": { "type": "keyword" },
+                            "depDsprPosNbr": { "type": "keyword" },
+                            "depGateBankId": { "type": "keyword" },
+                            "depGateNbr": { "type": "keyword" },
+                            "depSubGateNbr": { "type": "keyword" },
+                            "dlyRsnRemark": { "type": "keyword" },
+                            "domIntInd": { "type": "keyword" },
+                            "dsptchSrc": { "type": "keyword" },
+                            "enRtDist": { "type": "float" },
+                            "etDelayCmnt": { "type": "keyword" },
+                            "fltArrDvrtInd": { "type": "keyword" },
+                            "fltArrNstpInd": { "type": "keyword" },
+                            "fltArrOnlDvrtInd": { "type": "keyword" },
+                            "fltArrRtblInd": { "type": "keyword" },
+                            "fltArrRtflInd": { "type": "keyword" },
+                            "fltArrXstpInd": { "type": "keyword" },
+                            "fltCnclInd": { "type": "keyword" },
+                            "fltDcsnInd": { "type": "keyword" },
+                            "fltDepDvrtInd": { "type": "keyword" },
+                            "fltDepNstpInd": { "type": "keyword" },
+                            "fltDepOnlDvrtInd": { "type": "keyword" },
+                            "fltDepRtblInd": { "type": "keyword" },
+                            "fltDepRtflInd": { "type": "keyword" },
+                            "fltDepXstpInd": { "type": "keyword" },
+                            "fltDlsnInd": { "type": "keyword" },
+                            "fltGmtOrigDt": { "type": "date" },
+                            "fltInInd": { "type": "keyword" },
+                            "fltLegActvInd": { "type": "keyword" },
+                            "fltLegLclDepDt": { "type": "date" },
+                            "fltMishapInd": { "type": "keyword" },
+                            "fltNm": { "type": "keyword" },
+                            "fltNoOpsInd": { "type": "keyword" },
+                            "fltOffInd": { "type": "keyword" },
+                            "fltOnInd": { "type": "keyword" },
+                            "fltOutInd": { "type": "keyword" },
+                            "fltRadioNbr": { "type": "keyword" },
+                            "fltRlseInd": { "type": "keyword" },
+                            "fnlBagConnInd": { "type": "keyword" },
+                            "fpmInd": { "type": "keyword" },
+                            "fuelLoadInd": { "type": "keyword" },
+                            "gateOutInd": { "type": "keyword" },
+                            "gmtAcarsInitDtm": { "type": "date" },
+                            "gmtAdcBrlDtm": { "type": "date" },
+                            "gmtAllPsgrDoorClsDtm": { "type": "date" },
+                            "gmtBridgeOnDtTm": { "type": "date" },
+                            "gmtBrkRlseDtm": { "type": "date" },
+                            "gmtBrkSetDtm": { "type": "date" },
+                            "gmtCrewEndPayDtm": { "type": "date" },
+                            "gmtCrewStartPayDtm": { "type": "date" },
+                            "gmtCrgoDoorClsDtm": { "type": "date" },
+                            "gmtCrgoDoorOpnDtm": { "type": "date" },
+                            "gmtDoorReopnDtm": { "type": "date" },
+                            "gmtEstArrDtTm": { "type": "date" },
+                            "gmtEstBoardEndDtTm": { "type": "date" },
+                            "gmtEstBoardStartDtTm": { "type": "date" },
+                            "gmtEstDepDtTm": { "type": "date" },
+                            "gmtEstOfftheFldDtTm": { "type": "date" },
+                            "gmtEstOnTheFldDtTm": { "type": "date" },
+                            "gmtExpectedDcsnDtTm": { "type": "date" },
+                            "gmtGsiTugDtm": { "type": "date" },
+                            "gmtInBlkDtTm": { "type": "date" },
+                            "gmtOffTheFldDtTm": { "type": "date" },
+                            "gmtOnTheFldDtTm": { "type": "date" },
+                            "gmtOutOfBlkDtTm": { "type": "date" },
+                            "gmtPsgrDoorClsDtm": { "type": "date" },
+                            "gmtPsgrDoorOpnDtm": { "type": "date" },
+                            "irropSchedGmtArrDtm": { "type": "date" },
+                            "irropSchedGmtDepDtm": { "type": "date" },
+                            "irropSchedLclArrDtm": { "type": "date" },
+                            "irropSchedLclDepDtm": { "type": "date" },
+                            "lclAcarsInitDtm": { "type": "date" },
+                            "lclAdcBrlDtm": { "type": "date" },
+                            "lclAllPsgrDoorClsDtm": { "type": "date" },
+                            "lclBrkRlseDtm": { "type": "date" },
+                            "lclBrkSetDtm": { "type": "date" },
+                            "lclCrewEndPayDtm": { "type": "date" },
+                            "lclCrewStartPayDtm": { "type": "date" },
+                            "lclCrgoDoorClsDtm": { "type": "date" },
+                            "lclCrgoDoorOpnDtm": { "type": "date" },
+                            "lclDoorReopnDtm": { "type": "date" },
+                            "lclEstArrDtTm": { "type": "date" },
+                            "lclEstBoardEndDtTm": { "type": "date" },
+                            "lclEstBoardStartDtTm": { "type": "date" },
+                            "lclEstDepDtTm": { "type": "date" },
+                            "lclEstOfftheFldDtTm": { "type": "date" },
+                            "lclEstOntheFldDtTm": { "type": "date" },
+                            "lclExpectedDcsnDtTm": { "type": "date" },
+                            "lclGsiTugDtm": { "type": "date" },
+                            "lclInBlkDtTm": { "type": "date" },
+                            "lclOffTheFldDtTm": { "type": "date" },
+                            "lclOnTheFldDtTm": { "type": "date" },
+                            "lclOutOfBlkDtTm": { "type": "date" },
+                            "lclPsgrDoorClsDtm": { "type": "date" },
+                            "lclPsgrDoorOpnDtm": { "type": "date" },
+                            "lndgCtgry": { "type": "keyword" },
+                            "lndgEmplId": { "type": "keyword" },
+                            "lndgInd": { "type": "keyword" },
+                            "localBridgeOnDtTm": { "type": "date" },
+                            "maintOpenLogDisInd": { "type": "keyword" },
+                            "maintOpenLogRcdInd": { "type": "keyword" },
+                            "noseNbr": { "type": "keyword" },
+                            "opsFltNbr": { "type": "keyword" },
+                            "opsFltTypeCd": { "type": "keyword" },
+                            "opsLegArrArptIATACd": { "type": "keyword" },
+                            "opsLegArrArptICAOCd": { "type": "keyword" },
+                            "opsLegArrOccurNbr": { "type": "keyword" },
+                            "opsLegDepArptIATACd": { "type": "keyword" },
+                            "opsLegDepArptICAOCd": { "type": "keyword" },
+                            "opsLegDepOccurNbr": { "type": "keyword" },
+                            "plnEnrtDur": { "type": "keyword" },
+                            "prevNoseNbr": { "type": "keyword" },
+                            "prevTailNbr": { "type": "keyword" },
+                            "psgrCntInd": { "type": "keyword" },
+                            "psgrFltInd": { "type": "keyword" },
+                            "schedLegNbr": { "type": "keyword" },
+                            "secondGmtOutOfBlkDtTm": { "type": "date" },
+                            "secondLclOutOfBlkDtTm": { "type": "date" },
+                            "starFltInd": { "type": "keyword" }
+                          }
+                        },
+                        "ScheduledFlightLeg": {
+                          "properties": {
+                            "Equip": {
+                              "properties": {
+                                "acftMfrCd": { "type": "keyword" },
+                                "asEqpCd": { "type": "keyword" },
+                                "cabin1Cnt": { "type": "keyword" },
+                                "cabin2Cnt": { "type": "keyword" },
+                                "cabin3Cnt": { "type": "keyword" },
+                                "cabin4Cnt": { "type": "keyword" },
+                                "cabinTtlCnt": { "type": "keyword" },
+                                "carrIataCd": { "type": "keyword" },
+                                "cmsFleetType": { "type": "keyword" },
+                                "custEquipDesc": { "type": "keyword" },
+                                "dfltPseudoTailNbr": { "type": "keyword" },
+                                "eqpCd": { "type": "keyword" },
+                                "eqpDesc": { "type": "keyword" },
+                                "eqpEffDt": { "type": "date" },
+                                "eqpSplCd": { "type": "keyword" },
+                                "eqpTrmDt": { "type": "date" },
+                                "equipDesc": { "type": "keyword" },
+                                "fleetType": { "type": "keyword" },
+                                "iataAircraftType": { "type": "keyword" },
+                                "longBdyInd": { "type": "keyword" },
+                                "maintEqpCd": { "type": "keyword" },
+                                "maxSeatCnt": { "type": "keyword" },
+                                "seatConfigCd": { "type": "keyword" },
+                                "shareEquipCd": { "type": "keyword" },
+                                "wideBdyInd": { "type": "keyword" }
+                              }
+                            },
+                            "MrktData": {
+                              "properties": {
+                                "mrktCarrIataCd": { "type": "keyword" },
+                                "mrktCarrName": { "type": "keyword" },
+                                "mrktFltNbr": { "type": "keyword" }
+                              }
+                            },
+                            "acftChgInd": { "type": "keyword" },
+                            "airlineIataCd": { "type": "keyword" },
+                            "busOneInd": { "type": "keyword" },
+                            "fltDir": { "type": "keyword" },
+                            "fltNoOpsInd": { "type": "keyword" },
+                            "fltTypeCd": { "type": "keyword" },
+                            "intlInd": { "type": "keyword" },
+                            "longHaulInd": { "type": "keyword" },
+                            "minSvcTmCalc": { "type": "keyword" },
+                            "priorityFltInd": { "type": "keyword" },
+                            "schedEquipCd": { "type": "keyword" },
+                            "schedFltGmtOrigDt": { "type": "date" },
+                            "schedFltNbr": { "type": "keyword" },
+                            "schedLegArrArptIATACd": { "type": "keyword" },
+                            "schedLegArrArptICAOCd": { "type": "keyword" },
+                            "schedLegDepArptIATACd": { "type": "keyword" },
+                            "schedLegDepArptICAOCd": { "type": "keyword" },
+                            "schedLegGMTArrDtTm": { "type": "date" },
+                            "schedLegGMTDepDtTm": { "type": "date" },
+                            "schedLegLclArrDtTm": { "type": "date" },
+                            "schedLegLclDepDate": { "type": "date" },
+                            "schedLegLclDepDtTm": { "type": "date" },
+                            "schedLegNbr": { "type": "keyword" },
+                            "schedTaxiInMin": { "type": "keyword" },
+                            "schedTaxiOutMin": { "type": "keyword" },
+                            "ssimBookingClass": { "type": "keyword" },
+                            "ssimCabinClass": { "type": "keyword" },
+                            "starFltInd": { "type": "keyword" }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "Header": {
+                  "properties": {
+                    "eventHeader": {
+                      "properties": {
+                        "effEventCreationTime": { "type": "date" },
+                        "eventCreationSystem": { "type": "keyword" },
+                        "eventCreationTime": { "type": "date" },
+                        "eventID": { "type": "keyword" },
+                        "eventName": { "type": "keyword" },
+                        "version": { "type": "keyword" }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "arrGate": { "type": "keyword" },
+            "carrierCode": { "type": "keyword" },
+            "depGate": { "type": "keyword" },
+            "empId": { "type": "keyword" },
+            "eventCreationSystem": { "type": "keyword" },
+            "eventName": { "type": "keyword" },
+            "eventTimestampLocal": { "type": "date" },
+            "eventTimestampZulu": { "type": "date" },
+            "exterior": { "type": "boolean" },
+            "fltArrStn": { "type": "keyword" },
+            "fltDepStn": { "type": "keyword" },
+            "fltNbr": { "type": "keyword" },
+            "inbOutbInd": { "type": "keyword" },
+            "interior": { "type": "boolean" },
+            "lclFltArrDt": { "type": "date" },
+            "lclFltDepDt": { "type": "date" },
+            "noseNbr": { "type": "keyword" },
+            "size": { "type": "keyword" },
+            "tailNbr": { "type": "keyword" },
+            "testCheck": { "properties": { "test": { "type": "keyword" } } },
+            "transactionCreatedTimestampZulu": { "type": "date" },
+            "transactionSentTimestampZulu": { "type": "date" },
+            "turnStation": { "type": "keyword" },
+            "version": { "type": "keyword" }
+          }
+        }
+      }
+    }
+  },
+  {
+    "enterpriseId": "UA",
+    "signalId": "UA_ON_FLIGHT",
+    "signalName": "ON",
+    "signalDomain": "FLIGHT",
+    "signalDescription": "Test signal",
+    "signalSource": "",
+    "signalMode": "API",
+    "apiendpointurl": "",
+    "apirrefreshinterval": ""
+  },
+  {
+    "enterpriseId": "UA",
+    "signalId": "UA_ON1_PAX",
+    "signalName": "ON1",
+    "signalDomain": "PAX",
+    "signalDescription": "Test2",
+    "signalSource": "",
+    "signalMode": "API",
+    "apiendpointurl": "",
+    "apirrefreshinterval": ""
+  }
+]

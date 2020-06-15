@@ -1,0 +1,1509 @@
+[
+ {
+  "id": "SYSTEM-2-SYSTEM DOWN",
+  "category": "2",
+  "delaycategorygroup": "SYSTEM",
+  "description": "SYSTEM DOWN",
+  "controllableind": "N"
+  },
+  {
+  "id": "SYSTEM-2A-CheckIn",
+  "category": "2",
+  "delaycategorygroup": "SYSTEM",
+  "description": "SYSTEM DOWN",
+  "subcategory": "A-CheckIn",
+  "controllableind": "N"
+  },
+  {
+  "id": "SYSTEM-2B-Ops/AIMS/Redcrew",
+  "category": "2",
+  "delaycategorygroup": "SYSTEM",
+  "description": "SYSTEM DOWN",
+  "subcategory": "B-Ops/AIMS/Redcrew",
+  "controllableind": "N"
+  },
+  {
+  "id": "SYSTEM-2C-Network/Internet",
+  "category": "2",
+  "delaycategorygroup": "SYSTEM",
+  "description": "SYSTEM DOWN",
+  "subcategory": "C-Network/Internet",
+  "controllableind": "N"
+  },
+  {
+  "id": "SYSTEM-2D-Planned power outage",
+  "category": "2",
+  "delaycategorygroup": "SYSTEM",
+  "description": "SYSTEM DOWN",
+  "subcategory": "D-Planned power outage",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-11-LATE CHECK -IN",
+  "category": "11",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "LATE CHECK -IN",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-13-CHECK-IN ERRORS PAX/BAGGAGE",
+  "category": "13",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "CHECK-IN ERRORS PAX/BAGGAGE",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-14-BOOKING ERRORS",
+  "category": "14",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BOOKING ERRORS",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-15-BOARDING AND DEBOARDING DISRCREPANCIES",
+  "category": "15",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BOARDING AND DEBOARDING DISRCREPANCIES",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-15A- PAX Figure Discrepancy ",
+  "category": "15",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BOARDING AND DEBOARDING DISRCREPANCIES",
+  "subcategory": "A- PAX Figure Discrepancy ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-15B- Late Initiation Of Deboarding",
+  "category": "15",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BOARDING AND DEBOARDING DISRCREPANCIES",
+  "subcategory": "B- Late Initiation Of Deboarding",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-15C- Slow Boarding ",
+  "category": "15",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BOARDING AND DEBOARDING DISRCREPANCIES",
+  "subcategory": "C- Slow Boarding ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-15D- Excess Cabin Luggage ",
+  "category": "15",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BOARDING AND DEBOARDING DISRCREPANCIES",
+  "subcategory": "D- Excess Cabin Luggage ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-15E-Late Gate Closure ",
+  "category": "15",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BOARDING AND DEBOARDING DISRCREPANCIES",
+  "subcategory": "E-Late Gate Closure ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-15F- Documentation Issues ",
+  "category": "15",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BOARDING AND DEBOARDING DISRCREPANCIES",
+  "subcategory": "F- Documentation Issues ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-15G-  Personnel Late To Aircraft ",
+  "category": "15",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BOARDING AND DEBOARDING DISRCREPANCIES",
+  "subcategory": "G-  Personnel Late To Aircraft ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-15H-Late Initiation of Boarding ",
+  "category": "15",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BOARDING AND DEBOARDING DISRCREPANCIES",
+  "subcategory": "H-Late Initiation of Boarding ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-15J- Wrongly boarded PAX ",
+  "category": "15",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BOARDING AND DEBOARDING DISRCREPANCIES",
+  "subcategory": "J- Wrongly boarded PAX ",
+  "controllableind": "Y"
+  },
+   {
+  "id": "PAX & BAGGAGE-16-COMMERCIAL PUBLICITY/OVERBOOKING",
+  "category": "16",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "COMMERCIAL PUBLICITY/OVERBOOKING",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-16A- Publicity/Press Event ",
+  "category": "16",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "COMMERCIAL PUBLICITY/OVERBOOKING",
+  "subcategory": "A- Publicity/Press Event ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-16B-VIP Handling ",
+  "category": "16",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "COMMERCIAL PUBLICITY/OVERBOOKING",
+  "subcategory": "B-VIP Handling ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-16C-Overbooking",
+  "category": "16",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "COMMERCIAL PUBLICITY/OVERBOOKING",
+  "subcategory": "C-Overbooking ",
+  "controllableind": "Y"
+  },
+   {
+  "id": "PAX & BAGGAGE-18-BAGGAGE PROCESSING",
+  "category": "18",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BAGGAGE PROCESSING",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-18A-Processing And Sorting Of Baggage",
+  "category": "18",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BAGGAGE PROCESSING",
+  "subcategory": "A-Processing And Sorting Of Baggage",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-18B-Mixed Local And FlyThru Ba ",
+  "category": "18",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BAGGAGE PROCESSING",
+  "subcategory": "B-Mixed Local And FlyThru Ba  ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-18C-Late BreakUp Provision",
+  "category": "18",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BAGGAGE PROCESSING",
+  "subcategory": "C-Late BreakUp Provision ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-18D-Late Collection/Provision of WC/strollers",
+  "category": "18",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BAGGAGE PROCESSING",
+  "subcategory": "D-Late Collection/Provision of WC/strollers ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-18E-Late Completion of Loading ",
+  "category": "18",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "BAGGAGE PROCESSING",
+  "subcategory": "E-Late Completion of Loading ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-19-PRM HANDLING(PAX WITH REDUCED MOBILITY)",
+  "category": "19",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PRM HANDLING(PAX WITH REDUCED MOBILITY)",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-19A-Late Deboarding ",
+  "category": "19",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PRM HANDLING(PAX WITH REDUCED MOBILITY)",
+  "subcategory": "A-Late Deboarding ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-19B- Late Boarding ",
+  "category": "19",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PRM HANDLING(PAX WITH REDUCED MOBILITY)",
+  "subcategory": "B-Late Boarding ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-19C-Late Assistance Request From PAX",
+  "category": "19",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PRM HANDLING(PAX WITH REDUCED MOBILITY)",
+  "subcategory": "C-Late Assistance Request From PAX",
+  "controllableind": "N"
+  },
+  {
+  "id": "PAX & BAGGAGE-19E-Slow Deboarding Of PRM",
+  "category": "19",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PRM HANDLING(PAX WITH REDUCED MOBILITY)",
+  "subcategory": "E-Slow Deboarding Of PRM",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-19F-Slow Boarding Of PRM",
+  "category": "19",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PRM HANDLING(PAX WITH REDUCED MOBILITY)",
+  "subcategory": " F-Slow Boarding Of PRM",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-19G-Lack Of/Late Ambulift",
+  "category": "19",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PRM HANDLING(PAX WITH REDUCED MOBILITY)",
+  "subcategory": "G-Lack Of/Late Ambulift",
+  "controllableind": "Y"
+  },
+  {
+  "id": "PAX & BAGGAGE-20-PAX ISSUES/DISRUPTIVE PAX",
+  "category": "20",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PRM HANDLING(PAX WITH REDUCED MOBILITY)",
+  "controllableind": "N"
+  },
+  {
+  "id": "PAX & BAGGAGE-20A-Disruptive PAX",
+  "category": "20",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PAX ISSUES/DISRUPTIVE PAX",
+  "subcategory": "A-Disruptive PAX",
+  "controllableind": "N"
+  },
+  {
+  "id": "PAX & BAGGAGE-20B-PAX Documents/Items",
+  "category": "20",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PAX ISSUES/DISRUPTIVE PAX",
+  "subcategory": "B-PAX Documents/Items ",
+  "controllableind": "N"
+  },
+  {
+  "id": "PAX & BAGGAGE-20C-PAX cancel travel",
+  "category": "20",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PAX ISSUES/DISRUPTIVE PAX",
+  "subcategory": "C-PAX cancel travel  ",
+  "controllableind": "N"
+  },
+  {
+  "id": "PAX & BAGGAGE-20D-Medical issue",
+  "category": "20",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PAX ISSUES/DISRUPTIVE PAX",
+  "subcategory": "D-Medical issue",
+  "controllableind": "N"
+  },
+  {
+  "id": "PAX & BAGGAGE-20E-Excessive Number Of PRM",
+  "category": "20",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "PAX ISSUES/DISRUPTIVE PAX",
+  "subcategory": "E- Excessive Number Of  PRM ",
+  "controllableind": "N"
+  },
+  {
+  "id": "PAX & BAGGAGE-91- FLY-THRU(PAX/BAG/CARGO CONNECTION)",
+  "category": "91",
+  "delaycategorygroup": "PAX & BAGGAGE",
+  "description": "FLY-THRU(PAX/BAG/CARGO CONNECTION)",
+  "controllableind": "Y"
+  },
+  {
+  "id": "CARGO-21-CARGO",
+  "category": "21",
+  "delaycategorygroup": "CARGO",
+  "description": "CARGO",
+  "controllableind": "Y"
+  },
+  {
+  "id": "CARGO-21A-Documentation Error",
+  "category": "21",
+  "delaycategorygroup": "CARGO",
+  "description": "CARGO",
+  "subcategory": "A-Documentation Error ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "CARGO-21B-Late Positioning",
+  "category": "21",
+  "delaycategorygroup": "CARGO",
+  "description": "CARGO",
+  "subcategory": "B-Late Positioning ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "CARGO-21C-Late Acceptance",
+  "category": "21",
+  "delaycategorygroup": "CARGO",
+  "description": "CARGO",
+  "subcategory": "C-Late Acceptance",
+  "controllableind": "Y"
+  },
+  {
+  "id": "CARGO-21D-Inadequate Packing",
+  "category": "21",
+  "delaycategorygroup": "CARGO",
+  "description": "CARGO",
+  "subcategory": "D-Inadequate Packing ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "CARGO-21E-Load Discrepancy",
+  "category": "21",
+  "delaycategorygroup": "CARGO",
+  "description": "CARGO",
+  "subcategory": "E-Load Discrepancy  ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "CARGO-21F-High Load",
+  "category": "21",
+  "delaycategorygroup": "CARGO",
+  "description": "CARGO",
+  "subcategory": "F-High Load ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "CARGO-21G-Late/Lack of Personnel",
+  "category": "21",
+  "delaycategorygroup": "CARGO",
+  "description": "CARGO",
+  "subcategory": "G-Late/Lack of Personnel",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-4-A-17 BAG NOT FOUND",
+  "category": "4",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "A-17 BAG NOT FOUND",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-5-A-17 DELAY 5MINS OR LESS",
+  "category": "5",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "A-17 DELAY 5MINS OR LESS",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-6-RAMP CONGESTION(SELF INDUCED)",
+  "category": "6",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "RAMP CONGESTION(SELF INDUCED)",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-7-A-17 FOR ",
+  "category": "7",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "A-17 FOR ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-8-A-17 FOR RAMP",
+  "category": "8",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "A-17 FOR RAMP",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-17-CATERING(3RD PARTY ONLY)",
+  "category": "17",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "CATERING(3RD PARTY ONLY)",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-31-FLIGHT DOCUMENTS",
+  "category": "31",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "FLIGHT DOCUMENTS",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-31A-Late Or Innacurate PAX Manifest",
+  "category": "31",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "FLIGHT DOCUMENTS",
+  "subcategory": "A-Late Or Innacurate PAX Manifest",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-31B-Late General Declaration",
+  "category": "31",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "FLIGHT DOCUMENTS",
+  "subcategory": "B-Late General Declaration ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-31C-Late Final PAX Figure",
+  "category": "31",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "FLIGHT DOCUMENTS",
+  "subcategory": "C-Late Final PAX Figure",
+  "controllableind": "N"
+  },
+  
+  
+  
+  
+  
+  
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-32-Loading of Special or Bulky load,lack of staff,lack of space",
+  "category": "32",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "Loading of Special or Bulky load,lack of staff,lack of space",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-32A-Loading/Unloading A Bulky Or Special Load ",
+  "category": "32",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "Loading of Special or Bulky load,lack of staff,lack of space",
+  "subcategory": "A-Loading/Unloading A Bulky Or Special Load ",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-32B-Lack Of/Late Staff",
+  "category": "32",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "Loading of Special or Bulky load,lack of staff,lack of space",
+  "subcategory": "B-Lack Of/Late Staff ",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-32D-Volumetric/Space Problems",
+  "category": "32",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "Loading of Special or Bulky load,lack of staff,lack of space",
+  "subcategory": "D-Volumetric/Space Problems",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-32E-Wrong Loading",
+  "category": "32",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "Loading of Special or Bulky load,lack of staff,lack of space",
+  "subcategory": "E-Wrong Loading",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-32F-High Load",
+  "category": "32",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "Loading of Special or Bulky load,lack of staff,lack of space",
+  "subcategory": "F-HIGH LOAD",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-33-LATE/LACK OR BREAKDOWN LOADING EQUIPMENT",
+  "category": "33",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE/LACK OR BREAKDOWN LOADING EQUIPMENT",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-33A-Breakdown Of Loading Equip",
+  "category": "33",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE/LACK OR BREAKDOWN LOADING EQUIPMENT",
+  "subcategory": "A-Breakdown Of Loading Equip ",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-33B-Lack Of/Late Loading Equipment",
+  "category": "33",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE/LACK OR BREAKDOWN LOADING EQUIPMENT",
+  "subcategory": "B-Lack Of / Late Loading Equipment ",
+  "controllableind": "Y"
+  },
+  
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-34-LATE/LACK OR BREAKDOWN OF SERVICING EQUIPMENT",
+  "category": "34",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE/LACK OR BREAKDOWN OF SERVICING EQUIPMENT",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-34A-Aerobridge/PLB/Aviobridge Operator",
+  "category": "34",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE/LACK OR BREAKDOWN OF SERVICING EQUIPMENT",
+  "subcategory": "A-Aerobridge/PLB/Aviobridge Operator",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-34B-PAX Stairs",
+  "category": "34",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE/LACK OR BREAKDOWN OF SERVICING EQUIPMENT",
+  "subcategory": "B-PAX Stairs",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-34C-Bus/PAX Transport/Ambulift",
+  "category": "34",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE/LACK OR BREAKDOWN OF SERVICING EQUIPMENT",
+  "subcategory": "C-Bus/PAX Transport/Ambulift ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-34D-Water Service",
+  "category": "34",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE/LACK OR BREAKDOWN OF SERVICING EQUIPMENT",
+  "subcategory": "D-Water Service",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-34E-Waste Service",
+  "category": "34",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE/LACK OR BREAKDOWN OF SERVICING EQUIPMENT",
+  "subcategory": "E-Waste Service",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-34G-Pushback Tug/Towbar",
+  "category": "34",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE/LACK OR BREAKDOWN OF SERVICING EQUIPMENT",
+  "subcategory": "G-Pushback Tug/Towbar",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-34H-De-/AntiIcing",
+  "category": "34",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE/LACK OR BREAKDOWN OF SERVICING EQUIPMENT",
+  "subcategory": "H-De-/AntiIcing ",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-34J-GPU/ASU",
+  "category": "34",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE/LACK OR BREAKDOWN OF SERVICING EQUIPMENT",
+  "subcategory": "J-GPU/ASU",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-35-AIRCRAFT CLEANING(3RD PARTY ONLY)",
+  "category": "35",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "AIRCRAFT CLEANING(3RD PARTY ONLY)",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-36-FUELING/DEFUELING",
+  "category": "36",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "FUELING/DEFUELING",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-36A-Breakdown Of Fuel Truck",
+  "category": "36",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "FUELING/DEFUELING",
+  "subcategory":"A-Breakdown Of Fuel Truck ",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-36B-Lack Of/Late Fuel Truck/Bowser",
+  "category": "36",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "FUELING/DEFUELING",
+  "subcategory":"B-Lack Of/Late Fuel Truck/Bowser ",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-36D-Defueling",
+  "category": "36",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "FUELING/DEFUELING",
+  "subcategory":"D-Defueling",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-36E-Fueling Error/Spill",
+  "category": "36",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "FUELING/DEFUELING",
+  "subcategory":"E-Fueling Error/Spill",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-37-CATERING",
+  "category": "37",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "CATERING",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-37A-Breakdown Of Catering Equipment",
+  "category": "37",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "CATERING",
+  "subcategory":"A-Breakdown Of Catering Equipment",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-37B-Lack Of/Late Catering Equipment/Staff",
+  "category": "37",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "CATERING",
+  "subcategory":"B-Lack Of/Late Catering Equipment/Staff",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-37C-Wrong/Missing Catering",
+  "category": "37",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "CATERING",
+  "subcategory":"C-Wrong/Missing Catering",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-38-CARGO EQUIPMENT",
+  "category": "38",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "CARGO EQUIPMENT",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-38A-Breakdown Of Cargo Equipment",
+  "category": "38",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "CARGO EQUIPMENT",
+  "subcategory":"A-Breakdown Of Cargo Equipmentg",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-38B-Lack Of/Late Cargo Equipment",
+  "category": "38",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "CARGO EQUIPMENT",
+  "subcategory":"B-Lack Of/Late Cargo Equipment",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-70-LATE COMPLETION OF FUELING",
+  "category": "70",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE COMPLETION OF FUELING",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-70A-Late Fuel Figure",
+  "category": "70",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE COMPLETION OF FUELING",
+  "subcategory":"A-Late Fuel Figure",
+  "controllableind": "Y"
+  },
+  
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-70B-Wrong  Fuel Figure/Missing Catering",
+  "category": "70",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE COMPLETION OF FUELING",
+  "subcategory":"B-Wrong Fuel Figure/Fueling error",
+  "controllableind": "Y"
+  },
+  {
+  "id": "AIRCRAFT&RAMP HANDLING-70C-High Final Fuel",
+  "category": "70",
+  "delaycategorygroup": "AIRCRAFT&RAMP HANDLING",
+  "description": "LATE COMPLETION OF FUELING",
+  "subcategory":"C-High Final Fuel",
+  "controllableind": "Y"
+  },
+  {
+  "id": "TECH & AC EQUIPMENT-40-LATE ENGINEERING PERSONNEL",
+  "category": "40",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "LATE ENGINEERING PERSONNEL",
+  "controllableind": "Y"
+  },
+  {
+  "id": "TECH & AC EQUIPMENT-41-AIRCRAFT DEFECTS",
+  "category": "41",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "AIRCRAFT DEFECTS",
+  "controllableind": "N"
+  },
+  {
+  "id": "TECH & AC EQUIPMENT-41A-Requires Ground Support(GTSU/ASU/F)",
+  "category": "41",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "AIRCRAFT DEFECTS",
+  "subcategory":"A-Requires Ground Support(GTSU/ASU/F)",
+  "controllableind": "N"
+  },
+  {
+  "id": "TECH & AC EQUIPMENT-42-LATE POSITIONING OF AIRCRAFT",
+  "category": "42",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "LATE POSITIONING OF AIRCRAFT",
+  "controllableind": "Y"
+  },
+  {
+  "id": "TECH & AC EQUIPMENT-42A-Late Release from Scheduled Mix",
+  "category": "42",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "LATE POSITIONING OF AIRCRAFT",
+  "subcategory":"A-Late Release from Scheduled Mix",
+  "controllableind": "Y"
+  },
+  {
+  "id": "TECH & AC EQUIPMENT-42B-Incomplete Documentation",
+  "category": "42",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "LATE POSITIONING OF AIRCRAFT",
+  "subcategory":"B-Incomplete Documentation",
+  "controllableind": "Y"
+  },
+  
+  {
+  "id": "TECH & AC EQUIPMENT-43-NON- SCHEDULED MAINTENANCE",
+  "category": "43",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "NON- SCHEDULED MAINTENANCE",
+  "controllableind": "N"
+  },
+  {
+  "id": "TECH & AC EQUIPMENT-44-LACK OF SPARES & MAINTENANCE EQUIPMENT",
+  "category": "44",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "LACK OF SPARES & MAINTENANCE EQUIPMENT",
+  "controllableind": "Y"
+  },
+  {
+  "id": "TECH & AC EQUIPMENT-45-AOG SPARES CARRIED TO ANOTHER STATION",
+  "category": "45",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "AOG SPARES CARRIED TO ANOTHER STATION",
+  "controllableind": "Y"
+  },
+  {
+  "id": "TECH & AC EQUIPMENT-46-TECHNICAL SWAP",
+  "category": "46",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "TECHNICAL SWAP",
+  "controllableind": "N"
+  },
+  {
+  "id": "TECH & AC EQUIPMENT-47-LACK OF STANDBY AIRCRAFT",
+  "category": "47",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "LACK OF STANDBY AIRCRAFT",
+  "controllableind": "Y"
+  },
+  {
+  "id": "TECH & AC EQUIPMENT-48-INSUFFICIENT GROUND TIME FOR DAILY CHECK",
+  "category": "48",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "INSUFFICIENT GROUND TIME FOR DAILY CHECK",
+  "controllableind": "Y"
+  },
+  {
+  "id": "TECH & AC EQUIPMENT-49-DOCUMENT DISCREPANCY",
+  "category": "49",
+  "delaycategorygroup": "TECH & AC EQUIPMENT",
+  "description": "DOCUMENT DISCREPANCY",
+  "controllableind": "Y"
+  },
+  {
+  "id": "DAMAGE TO AC-51-DAMAGE TO AIRCRAFT IN FLIGHT OR TAXI",
+  "category": "51",
+  "delaycategorygroup": "DAMAGE TO AC",
+  "description": "DAMAGE TO AIRCRAFT IN FLIGHT OR TAXI",
+  "controllableind": "N"
+  },
+  {
+  "id": "DAMAGE TO AC-51A-Birdstrike",
+  "category": "51",
+  "delaycategorygroup": "DAMAGE TO AC",
+  "description": "DAMAGE TO AIRCRAFT IN FLIGHT OR TAXI",
+  "subcategory":"A-Birdstrike",
+  "controllableind": "N"
+  },
+  {
+  "id": "DAMAGE TO AC-51B-Act of Nature",
+  "category": "51",
+  "delaycategorygroup": "DAMAGE TO AC",
+  "description": "DAMAGE TO AIRCRAFT IN FLIGHT OR TAXI",
+  "subcategory":"B-Act of Nature",
+  "controllableind": "N"
+  },
+  {
+  "id": "DAMAGE TO AC-51C-Overweight/Heavy Landing/Tailstrike",
+  "category": "51",
+  "delaycategorygroup": "DAMAGE TO AC",
+  "description": "DAMAGE TO AIRCRAFT IN FLIGHT OR TAXI",
+  "subcategory":"C-Overweight/Heavy Landing/Tailstrike",
+  "controllableind": "N"
+  },
+  {
+  "id": "DAMAGE TO AC-51E-Cockpit and/or Cabin Equipment",
+  "category": "51",
+  "delaycategorygroup": "DAMAGE TO AC",
+  "description": "DAMAGE TO AIRCRAFT IN FLIGHT OR TAXI",
+  "subcategory":"E-Cockpit and/or Cabin Equipment",
+  "controllableind": "N"
+  },
+  {
+  "id": "DAMAGE TO AC-51F-FOD",
+  "category": "51",
+  "delaycategorygroup": "DAMAGE TO AC",
+  "description": "DAMAGE TO AIRCRAFT IN FLIGHT OR TAXI",
+  "subcategory":"F-FOD",
+  "controllableind": "N"
+  },
+  {
+  "id": "DAMAGE TO AC-52-DAMAGE TO AIRCRAFT ON STAND",
+  "category": "52",
+  "delaycategorygroup": "DAMAGE TO AC",
+  "description": "DAMAGE TO AIRCRAFT ON STAND",
+  "controllableind": "N"
+  },
+  {
+  "id": "DAMAGE TO AC-52A-Loading Equipment",
+  "category": "52",
+  "delaycategorygroup": "DAMAGE TO AC",
+  "description": "DAMAGE TO AIRCRAFT ON STAND",
+  "subcategory":"A-Loading Equipment",
+  "controllableind": "N"
+  },
+  {
+  "id": "DAMAGE TO AC-52B-Service Equipment",
+  "category": "52",
+  "delaycategorygroup": "DAMAGE TO AC",
+  "description": "DAMAGE TO AIRCRAFT ON STAND",
+  "subcategory":"B-Service Equipment",
+  "controllableind": "N"
+  },
+  {
+  "id": "DAMAGE TO AC-52E-Cabin Equipment",
+  "category": "52",
+  "delaycategorygroup": "DAMAGE TO AC",
+  "description": "DAMAGE TO AIRCRAFT ON STAND",
+  "subcategory":"E-Cabin Equipment",
+  "controllableind": "N"
+  },
+  {
+  "id": "DAMAGE TO AC-53-SWAP DUE TO DAMAGED AIRCRAFT",
+  "category": "53",
+  "delaycategorygroup": "DAMAGE TO AC",
+  "description": "SWAP DUE TO DAMAGED AIRCRAFT",
+  "controllableind": "N"
+  },
+  {
+  "id": "WEATHER-71-DEPARTURE STATION WX BELOW MINIMA",
+  "category": "71",
+  "delaycategorygroup": "WEATHER",
+  "description": "DEPARTURE STATION WX BELOW MINIMA",
+  "controllableind": "N"
+  },
+  {
+  "id": "WEATHER-72-DESTINATION STATION WX BELOW MINIMA",
+  "category": "72",
+  "delaycategorygroup": "WEATHER",
+  "description": "DESTINATION STATION WX BELOW MINIMA",
+  "controllableind": "N"
+  },
+  {
+  "id": "WEATHER-73-EN-ROUTE/ALTERNATE WEATHER MINIMA",
+  "category": "73",
+  "delaycategorygroup": "WEATHER",
+  "description": "EN-ROUTE/ALTERNATE WEATHER MINIMA",
+  "controllableind": "N"
+  },
+  {
+  "id": "WEATHER-75-DE-ICING",
+  "category": "75",
+  "delaycategorygroup": "WEATHER",
+  "description": "DE-ICING",
+  "controllableind": "N"
+  },
+  {
+  "id": "WEATHER-76-AIRPORT CONTAMINATED/ABNORMAL EVENTS",
+  "category": "76",
+  "delaycategorygroup": "WEATHER",
+  "description": "AIRPORT CONTAMINATED/ABNORMAL EVENTS",
+  "controllableind": "N"
+  },
+  {
+  "id": "WEATHER-77-STOP GROUND HANDLING",
+  "category": "77",
+  "delaycategorygroup": "WEATHER",
+  "description": "STOP GROUND HANDLING",
+  "controllableind": "N"
+  },
+  {
+  "id": "WEATHER-78-SLOW GROUND HANDLING",
+  "category": "78",
+  "delaycategorygroup": "WEATHER",
+  "description": "SLOW GROUND HANDLING",
+  "controllableind": "N"
+  },
+  {
+  "id": "ATS-81-CLEARANCE/SEQUENCING FOR DEPARTURE",
+  "category": "81",
+  "delaycategorygroup": "ATS",
+  "description": "CLEARANCE/SEQUENCING FOR DEPARTURE",
+  "controllableind": "N"
+  },
+  {
+  "id": "ATS-82-CLEARANCE EN-ROUTE(ATFM)",
+  "category": "82",
+  "delaycategorygroup": "ATS",
+  "description": "CLEARANCE EN-ROUTE(ATFM)",
+  "controllableind": "N"
+  },
+  
+  {
+  "id": "ATS-84-CLEARANCE FOR ARRIVAL DUE TO WEATHER",
+  "category": "84",
+  "delaycategorygroup": "ATS",
+  "description": "CLEARANCE FOR ARRIVAL DUE TO WEATHER",
+  "controllableind": "N"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-61-FLIGHT PLAN/FLIGHT DOCUMENTS",
+  "category": "61",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "FLIGHT PLAN/FLIGHT DOCUMENTS",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-61A-Incorrect Flight Documents",
+  "category": "61",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "FLIGHT PLAN/FLIGHT DOCUMENTS",
+  "subcategory":"A-Incorrect Flight Documents",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-61B-Change Of/Late Flight Plan",
+  "category": "61",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "FLIGHT PLAN/FLIGHT DOCUMENTS",
+  "subcategory":"B-Change Of/Late Flight Plan",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-61C-Training Flight",
+  "category": "61",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "FLIGHT PLAN/FLIGHT DOCUMENTS",
+  "subcategory":"C-Training Flight",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-61D-Missing/Incorrect Charts",
+  "category": "61",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "FLIGHT PLAN/FLIGHT DOCUMENTS",
+  "subcategory":"D-Missing/Incorrect Charts",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-61E-Missing/Incorrect Manuals",
+  "category": "61",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "FLIGHT PLAN/FLIGHT DOCUMENTS",
+  "subcategory":"E-Missing/Incorrect Manuals",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-61F-EFB Failure",
+  "category": "61",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "FLIGHT PLAN/FLIGHT DOCUMENTS",
+  "subcategory":"F-EFB Failure",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-62-OPERATIONAL REQUIREMENTS",
+  "category": "62",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "OPERATIONAL REQUIREMENTS",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-62A-Late Completion Of Loadsheet",
+  "category": "62",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "OPERATIONAL REQUIREMENTS",
+  "subcategory":"A-Late Completion Of Loadsheet",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-62B-Fuel Alterations",
+  "category": "62",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "OPERATIONAL REQUIREMENTS",
+  "subcategory":"B-Fuel Alterations",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-62C-Cargo Alterations",
+  "category": "62",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "OPERATIONAL REQUIREMENTS",
+  "subcategory":"C-Cargo Alterations",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-62D-Require Tow Due To Overshot Stop Line",
+  "category": "62",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "OPERATIONAL REQUIREMENTS",
+  "subcategory":"D-Require Tow Due To Overshot Stop Line",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-63-LATE CREW BOARDING",
+  "category": "63",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "LATE CREW BOARDING",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-63A-Flight Deck Crew",
+  "category": "63",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "LATE CREW BOARDING",
+  "subcategory":"A-Flight Deck Crew",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-63B-Cabin Crew",
+  "category": "63",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "LATE CREW BOARDING",
+  "subcategory":"B-Cabin Crew",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-63C-Entire Crew",
+  "category": "63",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "LATE CREW BOARDING",
+  "subcategory":"C-Entire Crew",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-63D-Due To Aircraft/Sector Change",
+  "category": "63",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "LATE CREW BOARDING",
+  "subcategory":"D-Due To Aircraft/Sector Change",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-63E-Due To Late Transport",
+  "category": "63",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "LATE CREW BOARDING",
+  "subcategory":"E-Due To Late Transport",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-64-CREW SHORTAGE/AWAITING AWAITING STANDBY",
+  "category": "64",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "CREW SHORTAGE/AWAITING AWAITING STANDBY",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-64A-Flight Deck Crew",
+  "category": "64",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "CREW SHORTAGE/AWAITING AWAITING STANDBY",
+  "subcategory":"A-Flight Deck Crew",
+  "controllableind": "N"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-64B-Cabin Crew",
+  "category": "64",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "CREW SHORTAGE/AWAITING AWAITING STANDBY",
+  "subcategory":"B-Cabin Crew",
+  "controllableind": "N"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-64C-Entire Crew",
+  "category": "64",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "LATE CREW BOARDING",
+  "subcategory":"C-Entire Crew",
+  "controllableind": "N"
+  },
+  
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-65-FLT DECK CREW SPECIAL REQUEST",
+  "category": "65",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "FLT DECK CREW SPECIAL REQUEST",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-66-CREW PROCEDURES",
+  "category": "66",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "CREW PROCEDURES",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-66A-Crew Change",
+  "category": "66",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "CREW PROCEDURES",
+  "subcategory":"A-Crew Change",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-66B-Immigration Clearance",
+  "category": "66",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "CREW PROCEDURES",
+  "subcategory":"B-Immigration Clearance",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-66C-Headcount",
+  "category": "66",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "CREW PROCEDURES",
+  "subcategory":"C-Headcount",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-66D-Crew Documents",
+  "category": "66",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "CREW PROCEDURES",
+  "subcategory":"D-Crew Documents",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-66E-Late Clearance For Boarding",
+  "category": "66",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "CREW PROCEDURES",
+  "subcategory":"E-Late Clearance For Boarding",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-66F-Late Service Request",
+  "category": "66",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "CREW PROCEDURES",
+  "subcategory":"F-Late Service Request",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-66G-Cleaning",
+  "category": "66",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "CREW PROCEDURES",
+  "subcategory":"G-Cleaning",
+  "controllableind": "Y"
+  },
+  {
+  "id": "FLIGHT OPERATIONS,CREW &OCC-69-CAPT REQUEST SECURITY CHECK",
+  "category": "69",
+  "delaycategorygroup": "FLIGHT OPERATIONS ,CREW &OCC",
+  "description": "CAPT REQUEST SECURITY CHECK",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-85-MANDATORY SECURITY",
+  "category": "85",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "MANDATORY SECURITY",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-85A-Congestion At Screening Machines",
+  "category": "85",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "MANDATORY SECURITY",
+  "subcategory":"A-Congestion At Screening Machines",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-85B-Security Items",
+  "category": "85",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "MANDATORY SECURITY",
+  "subcategory":"B-Security Items",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-86-CIQ(CUSTOMS,IMMIGRATION & QUARANTINE)",
+  "category": "86",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "CIQ(CUSTOMS,IMMIGRATION & QUARANTINE)",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-86A-Customs",
+  "category": "86",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "CIQ(CUSTOMS,IMMIGRATION & QUARANTINE)",
+  "subcategory":"A-Customs",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-86B-Immigration",
+  "category": "86",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "CIQ(CUSTOMS,IMMIGRATION & QUARANTINE)",
+  "subcategory":"B-Immigration",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-86C-Quarantine/Health",
+  "category": "86",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "CIQ(CUSTOMS,IMMIGRATION & QUARANTINE)",
+  "subcategory":"C-Quarantine/Health",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87-AIRPORT FACILITIES",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87A-Shortage Of Stands/Bays/Gates",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"A-Shortage Of Stands/Bays/Gates",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87B-Wrong Parking Bay",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"B-Wrong Parking Bay",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87C-Breakdown/Slow Baggage System",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"C-Breakdown/Slow Baggage System",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87D-Breakdown of PLB/Aerobridge",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"D-Breakdown of PLB/Aerobridge",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87E-Late PLB/Aerobridge staff",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"E-Late PLB/Aerobridge staff",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87F-Breakdown Of Stand Guidance System(VDGS)",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"F-Breakdown Of Stand Guidance System(VDGS)",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87G-Late Gate Change",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"G-Late Gate Change",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87H-Gate Sharing",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"H-Gate Sharing",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87J-Airport Congestion",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"J-Airport Congestion",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87K-Breakdown of Hydrant System",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"K-Breakdown of Hydrant System",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87L-Lack of Busses",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"L-Lack of Busses",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87M-Power strip/blackout",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"M-Power strip/blackout",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-87X-Slow Deboarding due to 1 door usage",
+  "category": "87",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "AIRPORT FACILITIES",
+  "subcategory":"X-Slow Deboarding due to 1 door usage",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-88-RESTRICTIONS AT DESTINATION/EN-ROUTE",
+  "category": "88",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "RESTRICTIONS AT DESTINATION/EN-ROUTE",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-88A-Capacity Constraints",
+  "category": "88",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "RESTRICTIONS AT DESTINATION/EN-ROUTE",
+  "subcategory":"A-Capacity Constraints",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-88B-Runway Obstruction",
+  "category": "88",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "RESTRICTIONS AT DESTINATION/EN-ROUTE",
+  "subcategory":"B-Runway Obstruction",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-88C-Airport Closure",
+  "category": "88",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "RESTRICTIONS AT DESTINATION/EN-ROUTE",
+  "subcategory":"C-Airport Closure",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-88D-VIP/Military Exercise",
+  "category": "88",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "RESTRICTIONS AT DESTINATION/EN-ROUTE",
+  "subcategory":"D-VIP/Military Exercise",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-89-RESTRICTIONS AT DEPARTURE AIRPORT",
+  "category": "89",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "RESTRICTIONS AT DEPARTURE AIRPORT",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-89A-Late Pushback Or Start-Up Clearance",
+  "category": "89",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "RESTRICTIONS AT DEPARTURE AIRPORT",
+  "subcategory":"A-Late Pushback Or Start-Up Clearance",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-89B-Runway Obstruction",
+  "category": "89",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "RESTRICTIONS AT DEPARTURE AIRPORT",
+  "subcategory":"B-Runway Obstruction",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-89C-Airport Closure",
+  "category": "89",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "RESTRICTIONS AT DEPARTURE AIRPORT",
+  "subcategory":"C-Airport Closure",
+  "controllableind": "N"
+  },
+  {
+  "id": "AIRPORT&CIQ-89D-VIP/Military Exercise",
+  "category": "89",
+  "delaycategorygroup": "AIRPORT & CIQ",
+  "description": "RESTRICTIONS AT DEPARTURE AIRPORT",
+  "subcategory":"D-VIP/Military Exercise",
+  "controllableind": "N"
+  },
+  {
+  "id": "OTH-93-AIRCRAFT ROTATION/CONSEQUENTIAL",
+  "category": "93",
+  "delaycategorygroup": "OTH",
+  "description": "AIRCRAFT ROTATION/CONSEQUENTIAL",
+  "controllableind": "N"
+  },
+  {
+  "id": "OTH-94-RETIME",
+  "category": "94",
+  "delaycategorygroup": "OTH",
+  "description": "RETIME",
+  "controllableind": "N"
+  },
+  {
+  "id": "OTH-99-MISCELLANEOUS",
+  "category": "99",
+  "delaycategorygroup": "OTH",
+  "description": "MISCELLANEOUS",
+  "controllableind": "N"
+  }
+]

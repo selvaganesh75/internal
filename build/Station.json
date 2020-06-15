@@ -1,0 +1,172 @@
+{  
+    "station":
+    {  
+       "stationCode":"ADL",
+         "name":"Abcdel",
+       "gmtOffset":"570",
+       "region":["SW PACIFIC"],
+       "cityCode":["ADL"],
+       "fisStation":"ADL",
+       "cateringStation":"Y",
+       "icaoStationCode":"YPAD",
+       "isDgrAllowed":"Y",
+       "clcStation":["HKG","ddd"],
+       "handle":[  
+          {  
+             "actype":"333"
+          },
+          {  
+             "actype":"345"
+          }
+       ],
+       "certify":[  
+          {  
+             "actype":"333"
+          },
+          {  
+             "actype":"345"
+          }
+       ],
+       "gmt_variance":[  
+          {  
+             "startDateTime":"Apr 6, 2019 3:30:00 PM",
+             "variance":"570"
+          },
+          {  
+             "startDateTime":"Oct 5, 2019 4:30:00 PM",
+             "variance":"630"
+          },
+          {  
+             "startDateTime":"Apr 4, 2020 3:30:00 PM",
+             "variance":"570"
+          },
+          {  
+             "startDateTime":"Oct 3, 2020 4:30:00 PM",
+             "variance":"630"
+          }
+       ],
+       "closure":[  
+          {  
+             "actype":"ALL",
+             "dop":"1234567",
+             "startdate":"Jul 1, 2000 12:00:00 AM",
+             "enddate":"Dec 31, 2099 12:00:00 AM",
+             "fromtime":"23:00",
+             "totime":"06:00",
+             "offset":"1",
+             "remarks":""
+          },
+          {  
+             "actype":"ALL",
+             "dop":"1234567",
+             "startdate":"Jul 1, 2015 12:00:00 AM",
+             "enddate":"Dec 31, 2099 12:00:00 AM",
+             "fromtime":"23:00",
+             "totime":"06:00",
+             "offset":"1",
+             "remarks":""
+          }
+       ],
+       "contacts":[  
+          {  
+             "contactType":"PAX",
+             "contactName":"SM",
+             "phone1":"61881540309",
+             "phone2":"61418792012",
+             "phone3":"",
+             "email":"",
+             "opHoursFrom":"",
+             "opHoursTo":"",
+             "fax":"",
+             "effectiveStartStnLocal":"",
+             "effectiveEndStnLocal":"",
+             "actypeSupported":"",
+             "companyName":""
+          },
+          {  
+             "contactType":"CGO",
+             "contactName":"OPS",
+             "phone1":"61882344772",
+             "phone2":"",
+             "phone3":"",
+             "email":"",
+             "opHoursFrom":"",
+             "opHoursTo":"",
+             "fax":"",
+             "effectiveStartStnLocal":"",
+             "effectiveEndStnLocal":"",
+             "actypeSupported":"",
+             "companyName":""
+          }
+       ],
+       "facility":[  
+          {  
+             "facilityType":"",
+             "facilityName":"",
+             "terminal":"",
+             "location":"",
+             "hourStartLocal":"",
+             "hourEndLocal":"",
+             "dop":"",
+             "effectiveFromDateLocal":"",
+             "effectiveEndDateLocal":"",
+             "remarks":""
+          }
+       ],
+       "star_alliance":[  
+          {  
+             "airlineCode":"",
+             "airlineName":"",
+             "designation":"",
+             "name":"",
+             "workPhone":"",
+             "mobilePhone":"",
+             "fax":"",
+             "email":"",
+             "remarks":""
+          }
+       ],
+       "mgt":[  
+          {  
+             "actype":"333",
+             "arr_station":"",
+             "mgt":"01:15",
+             "fltno":"",
+             "prev_dep_station":"",
+             "tr_time":"",
+             "ta_time":"01:15",
+             "remarks":"Inserted for MGT Update For A359",
+             "effective_from_date_utc":"Mar 1, 2016 12:00:00 AM",
+             "effective_to_date_utc":"Dec 31, 2099 12:00:00 AM",
+             "dop_utc":"1234567",
+             "iataactype":""
+          }
+       ],
+       "equipments":[  
+          {  
+             "eqtType":"CATERING",
+             "eqtName":"Atlas",
+             "eqtRemarks":"",
+             "effectiveFromLocal":"Jul 1, 2015 12:00:00 AM",
+             "effectiveToLocal":"Dec 31, 2099 12:00:00 AM"
+          },
+          {  
+             "eqtType":"BEDDING",
+             "eqtName":" Stelia",
+             "eqtRemarks":"",
+             "effectiveFromLocal":"Mar 28, 2019 12:00:00 AM",
+             "effectiveToLocal":"Dec 31, 2099 12:00:00 AM"
+          }
+       ],
+       "alternates":[  
+          {  
+             "altAirport":"",
+             "isCompPreferred":""
+          }
+       ]
+    }
+    
+
+ }
+
+ 

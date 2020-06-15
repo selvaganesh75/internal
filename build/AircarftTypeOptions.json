@@ -1,0 +1,53 @@
+
+    {
+        "aircraft_types": [
+            "134",
+            "351",
+            "456",
+            "108",
+            "789"
+        ],
+        "iata_actype": [
+            "321",
+            "123"
+           
+        ],
+        "ac_fleet": [
+            "321J",
+            "123J",
+            "789J"
+        ],
+        "over_all_pay_load": [
+            "40647",
+            "40649"
+        ],
+        "crew_bunk": [
+            "Bunks",
+            "Bunk"
+        ],
+        "cmiv": [
+            "AVOD",
+            "ADS"
+        ],
+        "first_class_capacities": [
+            "0",
+            "56",
+            "78"
+        ],
+        "business_class_capacities": [
+            "26",
+            "46"
+        ],
+        "premium_class_capacities": [
+            "0",
+            "75"
+        ],
+        "economy_class_capacities": [
+            "245",
+            "300"
+        ],
+        "galley_types": [
+            "SIA Standard",
+            "SQ Standard"
+        ]
+    }

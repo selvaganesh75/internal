@@ -1,0 +1,28 @@
+[
+  {
+      "id": "8bfa907e-dc36-410c-a1ec-8834d930bf36",
+      "station_code": "CPT",
+      "name": "Cape Town",
+      "region": "AFRICA",
+      "city_code": "COK",
+      "gmt_offset": "483",
+      "fis_station": "COK",
+      "icao_code": "MMMM",
+      "is_dgr_allowed": "Y",
+      "clc_station_code": "COK",
+      "is_catering_station": "ZZZZzfg"
+  },
+  {
+      "id": "af5c9c2c-1ce8-427a-9b3d-eb1da171c302",
+      "station_code": "CPT",
+      "name": "Cape Town",
+      "region": "AFRICA",
+      "city_code": "COK",
+      "gmt_offset": "483",
+      "fis_station": "COK",
+      "icao_code": "MMMM",
+      "is_dgr_allowed": "Y",
+      "clc_station_code": "COK",
+      "is_catering_station": "ZZZZzfg"
+  }
+]

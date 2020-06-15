@@ -1,0 +1,2 @@
+(this["webpackJsonpdata-maintenance"]=this["webpackJsonpdata-maintenance"]||[]).push([[2],{242:function(t,a,n){"use strict";n.d(a,"a",(function(){return i}));var e=n(0),i=function(t){return Object(e.a)({tag:"svg",attr:{viewBox:"0 0 12 16"},child:[{tag:"path",attr:{fillRule:"evenodd",d:"M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"}}]})(t)};i.displayName="GoPlus"}}]);
+//# sourceMappingURL=2.7ea87f25.chunk.js.map

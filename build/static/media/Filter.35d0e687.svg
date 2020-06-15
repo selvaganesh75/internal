@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="22" viewBox="0 0 36 22">
+    <defs>
+        <style>
+            .prefix__cls-3{stroke:#4b50c3}.prefix__cls-2,.prefix__cls-5{fill:none}.prefix__cls-2{stroke:#fff;stroke-linecap:round;stroke-width:2px}.prefix__cls-3{fill:#fff}.prefix__cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="prefix__Group_298" data-name="Group 298" transform="translate(-1222 -106)">
+        <g id="prefix__Rectangle_60" data-name="Rectangle 60" transform="translate(1222 106)" style="stroke:#4b50c3;fill:#4b50c3">
+            <rect width="36" height="22" class="prefix__cls-4" rx="11"/>
+            <rect width="35" height="21" x=".5" y=".5" class="prefix__cls-5" rx="10.5"/>
+        </g>
+        <path id="prefix__Line_14" d="M0 0L7.143 0" class="prefix__cls-2" data-name="Line 14" transform="translate(1233 112.762)"/>
+        <path id="prefix__Line_15" d="M0 0L1.33 0" class="prefix__cls-2" data-name="Line 15" transform="translate(1245.133 112.762)"/>
+        <g id="prefix__Ellipse_2" class="prefix__cls-3" data-name="Ellipse 2" transform="translate(1240.5 111.266)">
+            <circle cx="1.5" cy="1.5" r="1.5" class="prefix__cls-4"/>
+            <circle cx="1.5" cy="1.5" r="2" class="prefix__cls-5"/>
+        </g>
+        <path id="prefix__Line_16" d="M5.654 0L0 0" class="prefix__cls-2" data-name="Line 16" transform="translate(1240.809 116.831)"/>
+        <path id="prefix__Line_17" d="M2.82 0L0 0" class="prefix__cls-2" data-name="Line 17" transform="translate(1233 116.831)"/>
+        <g id="prefix__Ellipse_3" class="prefix__cls-3" data-name="Ellipse 3" transform="translate(1235.983 115.334)">
+            <circle cx="1.5" cy="1.5" r="1.5" class="prefix__cls-4"/>
+            <circle cx="1.5" cy="1.5" r="2" class="prefix__cls-5"/>
+        </g>
+        <path id="prefix__Line_18" d="M0 0L7.143 0" class="prefix__cls-2" data-name="Line 18" transform="translate(1233 120.9)"/>
+        <path id="prefix__Line_19" d="M0 0L1.33 0" class="prefix__cls-2" data-name="Line 19" transform="translate(1245.133 120.9)"/>
+        <g id="prefix__Ellipse_4" class="prefix__cls-3" data-name="Ellipse 4" transform="translate(1240.5 119.403)">
+            <circle cx="1.5" cy="1.5" r="1.5" class="prefix__cls-4"/>
+            <circle cx="1.5" cy="1.5" r="2" class="prefix__cls-5"/>
+        </g>
+    </g>
+</svg>

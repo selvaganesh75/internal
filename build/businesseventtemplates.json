@@ -1,0 +1,596 @@
+[
+  {
+    "businessEventTemplateId": "BD001",
+    "subscription": [
+      {
+        "subscriptionDetails": {
+          "subscriberGroup": "",
+          "subscriptionInfo": {
+            "subscriptionStartDt": "",
+            "subscriptionEndDt": "",
+            "subscriptionDeactivate": ""
+          }
+        }
+      }
+    ],
+    "ruleMapping": [{ "ruleId": "", "ruleConstruct": "" }],
+    "passThrough": "",
+    "businessEventId": "",
+    "exitCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoFltINIndicator": "",
+          "iaoOnTheFieldDtTmUTC": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "entryCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoOnTheFieldDtTmUTC": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "Flight",
+        "namedSignal": "ON"
+      },
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoOnTheFieldDtTmUTC": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "Flight",
+        "namedSignal": "TEST"
+      }
+    ],
+    "reinitiateCriteria": [{ "domain": "", "namedSignal": "" }],
+    "businessTargetedDomains": ["Flight"],
+    "eventDescription": "Generate alert when Taxi-in time deviation is exceeding thresholds.",
+    "influencers": [],
+    "businessEvent": "Arrival Tarmac Delay",
+    "mappingStatus": "",
+    "eventType": "",
+    "type": "Temporal",
+    "schedulingCondition": {
+      "scheduleKey": "",
+      "snoozesTimeValueMins": "",
+      "snoozesTimeIncrementValueMins": "",
+      "operator": ""
+    }
+  },
+  {
+    "businessEventTemplateId": "BD002",
+    "subscription": [
+      {
+        "subscriptionDetails": {
+          "subscriberGroup": "",
+          "subscriptionInfo": {
+            "subscriptionStartDt": "",
+            "subscriptionEndDt": "",
+            "subscriptionDeactivate": ""
+          }
+        }
+      }
+    ],
+    "ruleMapping": [{ "ruleId": "", "ruleConstruct": "" }],
+    "businessEventId": "",
+    "exitCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoFltOFFIndicator": "",
+          "iaoFltOUTIndicator": "",
+          "iaoOutOffBlockDtTmUTC": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "entryCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoFltOUTIndicator": "",
+          "iaoOutOffBlockDtTmUTC": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "reinitiateCriteria": [{ "domain": "", "namedSignal": "" }],
+    "businessTargetedDomains": [""],
+    "eventDescription": "Generate alert when Taxi-out time deviation is exceeding thresholds.",
+    "influencers": [],
+    "businessEvent": "Departure Tarmac Delay",
+    "mappingStatus": "",
+    "eventType": "",
+    "type": "Temporal",
+    "schedulingCondition": {
+      "scheduleKey": "",
+      "snoozesTimeValueMins": "",
+      "snoozesTimeIncrementValueMins": "",
+      "operator": ""
+    }
+  },
+  {
+    "businessEventTemplateId": "BD003",
+    "ruleMapping": [{ "ruleId": "", "ruleConstruct": "" }],
+    "businessEventId": "",
+    "exitCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoFltINIndicator": "",
+          "iaoEstimatedArrDtTmLcl": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "entryCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoEstimatedArrDtTmLcl": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "reinitiateCriteria": [{ "domain": "", "namedSignal": "" }],
+    "businessTargetedDomains": [""],
+    "eventDescription": "Generate alert when Current time is greater than ETA",
+    "influencers": [],
+    "businessEvent": "Invalid Estimated Time of Arrival",
+    "mappingStatus": "",
+    "eventType": "",
+    "type": "Temporal",
+    "schedulingCondition": {
+      "scheduleKey": "",
+      "snoozesTimeValueMins": "",
+      "snoozesTimeIncrementValueMins": "",
+      "operator": ""
+    }
+  },
+  {
+    "businessEventTemplateId": "BD004",
+    "ruleMapping": [{ "ruleId": "", "ruleConstruct": "" }],
+    "businessEventId": "",
+    "exitCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoOutOffBlockDtTmUTC": "",
+          "iaoEstimatedDepDtTmLcl": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "entryCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoEstimatedDepDtTmLcl": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "reinitiateCriteria": [{ "domain": "", "namedSignal": "" }],
+    "businessTargetedDomains": [""],
+    "eventDescription": "Generate alert when Current time is greater than ETD",
+    "influencers": [],
+    "businessEvent": "Invalid Estimated Time of Departure",
+    "mappingStatus": "",
+    "eventType": "",
+    "type": "Temporal",
+    "schedulingCondition": {
+      "scheduleKey": "",
+      "snoozesTimeValueMins": "",
+      "snoozesTimeIncrementValueMins": "",
+      "operator": ""
+    }
+  },
+  {
+    "businessEventTemplateId": "BD101",
+    "subscription": [
+      {
+        "subscriptionDetails": {
+          "subscriberGroup": "",
+          "subscriptionInfo": {
+            "subscriptionStartDt": "",
+            "subscriptionEndDt": "",
+            "subscriptionDeactivate": ""
+          }
+        }
+      }
+    ],
+    "ruleMapping": [{ "ruleId": "", "ruleConstruct": "" }],
+    "passThrough": "",
+    "businessEventId": "",
+    "exitCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoFltOFFIndicator": "",
+          "iaoFltOUTIndicator": "",
+          "iaoOutOffBlockDtTmUTC": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "entryCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoDepDelayReasonCode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoOutOffBlockDtTmUTC": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": "",
+          "iaoOpFltLegSchDepDtTmLcl": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "reinitiateCriteria": [{ "domain": "", "namedSignal": "" }],
+    "businessTargetedDomains": [""],
+    "eventDescription": "Generate alert if delay code not available corresponding to ETD deviation",
+    "influencers": [],
+    "businessEvent": "Delay Reasons not available",
+    "mappingStatus": "",
+    "eventType": "",
+    "type": "Transactional",
+    "schedulingCondition": {
+      "scheduleKey": "",
+      "snoozesTimeValueMins": "",
+      "snoozesTimeIncrementValueMins": "",
+      "operator": ""
+    }
+  },
+  {
+    "businessEventTemplateId": "BD102",
+    "subscription": [
+      {
+        "subscriptionDetails": {
+          "subscriberGroup": "",
+          "subscriptionInfo": {
+            "subscriptionStartDt": "",
+            "subscriptionEndDt": "",
+            "subscriptionDeactivate": ""
+          }
+        }
+      }
+    ],
+    "ruleMapping": [{ "ruleId": "", "ruleConstruct": "" }],
+    "passThrough": "",
+    "businessEventId": "",
+    "entryCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "businessTargetedDomains": [""],
+    "eventDescription": "Generate alert if the flight status is cancelled",
+    "influencers": [],
+    "businessEvent": "Flight cancellation",
+    "mappingStatus": "",
+    "eventType": "",
+    "type": "Transactional"
+  },
+  {
+    "businessEventTemplateId": "BD103",
+    "subscription": [
+      {
+        "subscriptionDetails": {
+          "subscriberGroup": "",
+          "subscriptionInfo": {
+            "subscriptionStartDt": "",
+            "subscriptionEndDt": "",
+            "subscriptionDeactivate": ""
+          }
+        }
+      }
+    ],
+    "ruleMapping": [{ "ruleId": "", "ruleConstruct": "" }],
+    "passThrough": "",
+    "businessEventId": "",
+    "entryCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoEstimatedDepDtTmLcl": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoPredictedEstimatedDepDtTmLcl": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "businessTargetedDomains": [""],
+    "eventDescription": "Generate alert if the flight predicted ETD deviation exceeds threshold",
+    "influencers": [],
+    "businessEvent": "Predicted ETD Deviation",
+    "mappingStatus": "",
+    "eventType": "",
+    "type": "Transcational"
+  },
+  {
+    "businessEventTemplateId": "BD104",
+    "subscription": [
+      {
+        "subscriptionDetails": {
+          "subscriberGroup": "",
+          "subscriptionInfo": {
+            "subscriptionStartDt": "",
+            "subscriptionEndDt": "",
+            "subscriptionDeactivate": ""
+          }
+        }
+      }
+    ],
+    "ruleMapping": [{ "ruleId": "", "ruleConstruct": "" }],
+    "passThrough": "",
+    "businessEventId": "",
+    "entryCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoOutOffBlockDtTmUTC": "",
+          "iaoEstimatedDepDtTmLcl": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "businessTargetedDomains": [""],
+    "eventDescription": "Generate alert if the flight Recommended ETD deviation exceeds threshold",
+    "influencers": [],
+    "businessEvent": "Recommended ETD Deviation",
+    "mappingStatus": "",
+    "eventType": "",
+    "type": "Transcational"
+  },
+  {
+    "businessEventTemplateId": "BD105",
+    "subscription": [
+      {
+        "subscriptionDetails": {
+          "subscriberGroup": "",
+          "subscriptionInfo": {
+            "subscriptionStartDt": "",
+            "subscriptionEndDt": "",
+            "subscriptionDeactivate": ""
+          }
+        }
+      }
+    ],
+    "ruleMapping": [{ "ruleId": "", "ruleConstruct": "" }],
+    "passThrough": "",
+    "businessEventId": "",
+    "exitCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoEDCTDtTmUTC": "",
+          "iaoOutOffBlockDtTmUTC": "",
+          "iaoEstimatedDepDtTmLcl": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "entryCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoEDCTDtTmUTC": "",
+          "iaoOutOffBlockDtTmUTC": "",
+          "iaoEstimatedDepDtTmLcl": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "businessTargetedDomains": [""],
+    "eventDescription": "Generate alert when EDCT Vs PRED OFF deviation is exceeding thresholds.",
+    "influencers": [],
+    "businessEvent": "Updated wheels-up time deviation",
+    "mappingStatus": "",
+    "eventType": "",
+    "type": "Transactional"
+  },
+  {
+    "businessEventTemplateId": "BD106",
+    "subscription": [
+      {
+        "subscriptionDetails": {
+          "subscriberGroup": "",
+          "subscriptionInfo": {
+            "subscriptionStartDt": "",
+            "subscriptionEndDt": "",
+            "subscriptionDeactivate": ""
+          }
+        }
+      }
+    ],
+    "ruleMapping": [{ "ruleId": "", "ruleConstruct": "" }],
+    "passThrough": "",
+    "businessEventId": "",
+    "entryCriteria": [
+      {
+        "metadata": {
+          "iaoAirlineIATACode": "",
+          "iaoEventCreationSystem": "",
+          "iaoEventCreationTime": "",
+          "iaoFltOFFIndicator": "",
+          "iaoOpFltNumber": "",
+          "iaoOpFltLegArrStationIATACode": "",
+          "iaoOpFltLegArrOccurNumber": "",
+          "iaoOpFltLegDepStationIATACode": "",
+          "iaoOpFltLegDepOccurNumber": "",
+          "iaoOpFltLegSchDepDtTmUTC": "",
+          "iaoOpFltLegSchArrDtTmUTC": ""
+        },
+        "domain": "",
+        "namedSignal": ""
+      }
+    ],
+    "businessTargetedDomains": [""],
+    "eventDescription": "Generate if flight OFF event is present",
+    "influencers": [],
+    "businessEvent": "Flight Wheels OFF",
+    "mappingStatus": "",
+    "eventType": "",
+    "type": "Transcational"
+  }
+]

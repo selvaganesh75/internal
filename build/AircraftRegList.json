@@ -1,0 +1,29 @@
+[{
+  "id": "VT-BLR",
+  "aircraftregno": "VT-BLR",
+  "aircrafttype": "A320",
+  "owner": null,
+  "cargopayload": "10000",
+  "overallpayload": "250",
+  "ets": null,
+  "acarstype": null,
+  "fclasscapacity": "0",
+  "bclasscapacity": "0",
+  "pclasscapacity": "0",
+  "eclasscapacity": "0"
+  },
+  {
+    "id": "VT-KALT",
+    "aircraftregno": "VT-KALT",
+    "aircrafttype": "A320",
+    "owner": null,
+    "cargopayload": "1000",
+    "overallpayload": "250",
+    "ets": null,
+    "acarstype": null,
+    "fclasscapacity": "0",
+    "bclasscapacity": "0",
+    "pclasscapacity": "0",
+    "eclasscapacity": "0"
+  }
+]

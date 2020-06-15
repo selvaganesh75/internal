@@ -1,0 +1,39 @@
+{
+  "files": {
+    "static/js/0.1c02eb74.chunk.js": "/static/js/0.1c02eb74.chunk.js",
+    "static/js/0.1c02eb74.chunk.js.map": "/static/js/0.1c02eb74.chunk.js.map",
+    "main.css": "/static/css/main.4a0d6358.chunk.css",
+    "main.js": "/static/js/main.3a33952a.chunk.js",
+    "main.js.map": "/static/js/main.3a33952a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9f88ab1b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9f88ab1b.js.map",
+    "static/css/3.829c9cb5.chunk.css": "/static/css/3.829c9cb5.chunk.css",
+    "static/js/3.d53b74a2.chunk.js": "/static/js/3.d53b74a2.chunk.js",
+    "static/js/3.d53b74a2.chunk.js.map": "/static/js/3.d53b74a2.chunk.js.map",
+    "static/css/4.1e43c144.chunk.css": "/static/css/4.1e43c144.chunk.css",
+    "static/js/4.1cff3650.chunk.js": "/static/js/4.1cff3650.chunk.js",
+    "static/js/4.1cff3650.chunk.js.map": "/static/js/4.1cff3650.chunk.js.map",
+    "static/css/5.1e43c144.chunk.css": "/static/css/5.1e43c144.chunk.css",
+    "static/js/5.96f3bfd6.chunk.js": "/static/js/5.96f3bfd6.chunk.js",
+    "static/js/5.96f3bfd6.chunk.js.map": "/static/js/5.96f3bfd6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.aef78d349d0e66d2c9a3d78428ef59f9.js": "/precache-manifest.aef78d349d0e66d2c9a3d78428ef59f9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.829c9cb5.chunk.css.map": "/static/css/3.829c9cb5.chunk.css.map",
+    "static/css/4.1e43c144.chunk.css.map": "/static/css/4.1e43c144.chunk.css.map",
+    "static/css/5.1e43c144.chunk.css.map": "/static/css/5.1e43c144.chunk.css.map",
+    "static/css/main.4a0d6358.chunk.css.map": "/static/css/main.4a0d6358.chunk.css.map",
+    "static/js/0.1c02eb74.chunk.js.LICENSE.txt": "/static/js/0.1c02eb74.chunk.js.LICENSE.txt",
+    "static/js/3.d53b74a2.chunk.js.LICENSE.txt": "/static/js/3.d53b74a2.chunk.js.LICENSE.txt",
+    "static/media/android.svg": "/static/media/android.9816bea4.svg",
+    "static/media/apple.svg": "/static/media/apple.6f761559.svg",
+    "static/media/bglow.png": "/static/media/bglow.e136c6a1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f88ab1b.js",
+    "static/css/3.829c9cb5.chunk.css",
+    "static/js/3.d53b74a2.chunk.js",
+    "static/css/main.4a0d6358.chunk.css",
+    "static/js/main.3a33952a.chunk.js"
+  ]
+}

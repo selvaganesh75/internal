@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="25.7" viewBox="0 0 20 28.383">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#4b50c3;stroke-width:2px}
+        </style>
+    </defs>
+    <path id="Subtraction" d="M9 25.727a99.139 99.139 0 0 1-4.5-6.5C2.447 15.979 0 11.568 0 9a9 9 0 0 1 18 0c0 2.568-2.447 6.979-4.5 10.228-2.2 3.489-4.407 6.377-4.5 6.5zM9 5a4 4 0 1 0 4 4 4 4 0 0 0-4-4z" class="cls-1" data-name="Subtraction" transform="translate(1 1)"/>
+</svg>

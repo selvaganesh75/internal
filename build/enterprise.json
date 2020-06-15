@@ -1,0 +1,61 @@
+[
+  {
+    "enterpriseId": "UA1",
+    "enterpriseName": "UNITED AIRLINES UPDATED",
+    "enterpriseIATACode": "UA",
+    "enterpriseDescription": "MAINLINE UNITED AIRLINES "
+  },
+  {
+    "enterpriseId": "BD001",
+    "enterpriseName": "UNITED AIRLINES",
+    "enterpriseIATACode": "CCD",
+    "enterpriseDescription": "mainline"
+  },
+  {
+    "enterpriseId": "United",
+    "enterpriseName": "United",
+    "enterpriseIATACode": "UA99",
+    "enterpriseDescription": "Main Stream"
+  },
+  {
+    "enterpriseId": "UA3",
+    "enterpriseName": "UNITED AIRLINES",
+    "enterpriseIATACode": "U11",
+    "enterpriseDescription": ""
+  },
+  {
+    "enterpriseId": "122",
+    "enterpriseName": "IN",
+    "enterpriseIATACode": "IN",
+    "enterpriseDescription": "United"
+  },
+  {
+    "enterpriseId": "",
+    "enterpriseName": "",
+    "enterpriseIATACode": "",
+    "enterpriseDescription": ""
+  },
+  {
+    "enterpriseId": "",
+    "enterpriseName": "",
+    "enterpriseIATACode": "",
+    "enterpriseDescription": ""
+  },
+  {
+    "enterpriseId": "UA2",
+    "enterpriseName": "",
+    "enterpriseIATACode": "",
+    "enterpriseDescription": ""
+  },
+  {
+    "enterpriseName": "United Airlines Updated",
+    "enterpriseIATACode": "UA30",
+    "enterpriseDescription": "SUBLINE UNITED AIRLINES"
+  },
+  {
+    "enterpriseId": "UA",
+    "enterpriseName": "UNITED AIRLINES",
+    "enterpriseIATACode": "UA",
+    "enterpriseDescription": "MAINLINE UNITED AIRLINES "
+  }
+]

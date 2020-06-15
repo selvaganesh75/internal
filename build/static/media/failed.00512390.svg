@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.121" height="14.121" viewBox="0 0 14.121 14.121">
+    <defs>
+        <style>
+            .cls-1,.cls-4{fill:none}.cls-1{stroke:#ff4040}.cls-2{fill:#ff4040}.cls-3{stroke:none}
+        </style>
+    </defs>
+    <g id="Group_199" data-name="Group 199" transform="translate(-1213 -382)">
+        <g id="Group_41" data-name="Group 41" transform="translate(1.074 125.074)">
+            <g id="Ellipse_8" class="cls-1" data-name="Ellipse 8" transform="translate(1211.926 256.926)">
+                <ellipse cx="7.06" cy="7.06" class="cls-3" rx="7.06" ry="7.06"/>
+                <ellipse cx="7.06" cy="7.06" class="cls-4" rx="6.56" ry="6.56"/>
+            </g>
+        </g>
+        <path id="Union_3" d="M-2664 8.941a.771.771 0 0 1 .771-.771.772.772 0 0 1 .771.771.771.771 0 0 1-.771.771.771.771 0 0 1-.771-.771zm.418-1.543L-2664 2h1.559l-.37 5.4z" class="cls-2" data-name="Union 3" transform="translate(3883 383)"/>
+    </g>
+</svg>

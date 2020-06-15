@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.148" height="14.148" viewBox="0 0 14.148 14.148">
+    <defs>
+        <style>
+            .cls-1{fill:#e61f1d}.cls-2{fill:none;stroke-linecap:round}.cls-3,.cls-4{stroke:none}.cls-4{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_197" data-name="Group 197" transform="translate(-1211.926 -262.926)">
+        <circle id="Ellipse_6" cx="7.074" cy="7.074" r="7.074" class="cls-1" data-name="Ellipse 6" transform="translate(1211.926 262.926)"/>
+        <g id="Union_2" class="cls-2" data-name="Union 2">
+            <path d="M4.064 4.064z" class="cls-3" transform="rotate(45 290.456 1603.665)"/>
+            <path d="M4.064 0v4.064V0M0 4.064h4.064H0m4.064 0H8.13 4.064m0 0V8.13 4.064M3.064 0h2v3.064H8.13v2H5.064V8.13h-2V5.064H0v-2h3.064V0z" class="cls-4" transform="rotate(45 290.456 1603.665)"/>
+        </g>
+    </g>
+</svg>

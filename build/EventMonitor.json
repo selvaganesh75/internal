@@ -1,0 +1,103 @@
+{
+  "took" : 0,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 6,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "odmexceptionindex",
+        "_type" : "_doc",
+        "_id" : "133111115642213",
+        "_score" : 1.0,
+        "_source" : {
+          "id" : 133111115642213,
+          "errorCode" : "505",
+          "errortype" : "STACKOVERFlOW",
+          "errorDescription" : "arrayoverflow",
+          "errorLayer" : "NA",
+          "createdTime" : "2020-03-11 03:51:33"
+        }
+      },
+      {
+        "_index" : "odmexceptionindex",
+        "_type" : "_doc",
+        "_id" : "1331111156422134365436356",
+        "_score" : 1.0,
+        "_source" : {
+          "id" : 1331111156422134365436356,
+          "errorCode" : "505",
+          "errortype" : "STACKOVERFlOW",
+          "errorDescription" : "arrayoverflow",
+          "errorLayer" : "NA",
+          "createdTime" : "2020-03-11 04:51:33"
+        }
+      },
+      {
+        "_index" : "odmexceptionindex",
+        "_type" : "_doc",
+        "_id" : "13221332454",
+        "_score" : 1.0,
+        "_source" : {
+          "id" : 13221332454,
+          "errorCode" : "505",
+          "errortype" : "STACKOVERFlOW",
+          "errorDescription" : "arrayoverflow",
+          "errorLayer" : "NA",
+          "createdTime" : "2020-03-11 05:51:33"
+        }
+      },
+      {
+        "_index" : "odmexceptionindex",
+        "_type" : "_doc",
+        "_id" : "2433254365436",
+        "_score" : 1.0,
+        "_source" : {
+          "id" : 2433254365436,
+          "errorCode" : "505",
+          "errortype" : "STACKOVERFlOW",
+          "errorDescription" : "arrayoverflow",
+          "errorLayer" : "NA",
+          "createdTime" : "2020-03-10 05:51:33"
+        }
+      },
+      {
+        "_index" : "odmexceptionindex",
+        "_type" : "_doc",
+        "_id" : "24332543654367",
+        "_score" : 1.0,
+        "_source" : {
+          "id" : 24332543654367,
+          "errorCode" : "505",
+          "errortype" : "STACKOVERFlOW",
+          "errorDescription" : "arrayoverflow",
+          "errorLayer" : "NA",
+          "createdTime" : "2020-03-10 05:51:39"
+        }
+      },
+      {
+        "_index" : "odmexceptionindex",
+        "_type" : "_doc",
+        "_id" : "243325436543673",
+        "_score" : 1.0,
+        "_source" : {
+          "id" : 243325436543673,
+          "errorCode" : "505",
+          "errortype" : "STACKOVERFlOW",
+          "errorDescription" : "arrayoverflow",
+          "errorLayer" : "NA",
+          "createdTime" : "2020-03-10 06:51:39"
+        }
+      }
+    ]
+  }
+}

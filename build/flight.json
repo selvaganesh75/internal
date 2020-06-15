@@ -1,0 +1,45 @@
+{
+  "flight": [
+    {
+      "id": "I51451-20191015-BLR",
+      "fltlegid": "I51451-20191015-BLR",
+      "airlineaircrafttype": "A320",
+      "iataaircrafttype": "A320",
+      "aircraftregistrationno": "VT-JPR",
+      "fltnumber": "I51451",
+      "fltdt": "2019-10-14T18:30:00Z",
+      "depstncd": "BLR",
+      "arrstncd": "COK",
+      "schdeputcdttm": "2019-10-15T00:40:00Z",
+      "scharrutcdttm": "2019-10-15T01:40:00Z",
+      "estdeputcdttm": "2019-10-10T00:45:00Z",
+      "estarrutcdttm": "2019-10-10T01:45:00Z"
+    },
+    {
+      "id": "I51452-20191015-COK",
+      "fltlegid": "I51452-20191015-COK",
+      "airlineaircrafttype": "A320",
+      "iataaircrafttype": "A320",
+      "aircraftregistrationno": "VT-JPR",
+      "fltnumber": "I51452",
+      "fltdt": "2019-10-14T18:30:00Z",
+      "depstncd": "COK",
+      "arrstncd": "BLR",
+      "schdeputcdttm": "2019-10-16T02:05:00Z",
+      "scharrutcdttm": "2019-10-15T03:10:00Z"
+    },
+    {
+      "id": "I51453-20191015-VTZ",
+      "fltlegid": "I51453-20191015-VTZ",
+      "airlineaircrafttype": "A320",
+      "iataaircrafttype": "A320",
+      "aircraftregistrationno": "VT-JPR",
+      "fltnumber": "I51453",
+      "fltdt": "2019-10-14T18:30:00Z",
+      "depstncd": "VTZ",
+      "arrstncd": "BLR",
+      "schdeputcdttm": "2019-10-17T05:35:00Z",
+      "scharrutcdttm": "2019-10-15T07:10:00Z"
+    }
+  ]
+}
